@@ -14,7 +14,11 @@
    Shared Styles
 ----------------------------------------- */
 .main {
-	margin-top: 65px;
+	margin-top: 15px;
+}
+
+.detail {
+	/*border-bottom: 3px solid orange;*/
 }
 
 .errors {
@@ -22,11 +26,40 @@
 	color:red;
 }
 
+.list{
+	margin: 10px 0;
+}
+
+td.center{
+	text-align: center;
+}
+
+textarea#description {
+	width: 100%;
+	max-width: 100%;
+	resize:vertical;
+	max-height: 250px;
+}
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
 
+.companiesImg{
+	width: 165px;
+	height: 110px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	box-shadow: 0 1px 2px rgba(132,132,132,0.8)
+}
 
+.companiesImg figcaption{
+	height:20px;
+	font-size: 11px;
+}
 
 
 /* -----------------------------------------

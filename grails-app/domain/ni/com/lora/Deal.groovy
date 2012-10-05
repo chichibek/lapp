@@ -1,43 +1,44 @@
 package ni.com.lora
 
-//cuando enabled se haga true state es true 
-//debera haber un job verificando si una deal activa esta a pocos dias de cerrar y una vez llegada 
-//la fecha de cierre debera pasar state a off
-
 class Deal {
-
 	String product
 	Double price
-	Integer counter//how many deals are available!
+	Integer itemsToSale
 	Date fromDate
 	Date toDate
-	Date fromToClaim
-	Date toToClaim
-	String comment
-	Boolean enabled = false
-	Boolean state
+	Date claimFrom
+	Date claimUp
+	String description
+	Boolean published = false
+	Boolean state = true
 	String gender
 	String age = 'all'
-	String sede
-	String user
 	Date dateCreated
+	Date lastUpdated
 
     static constraints = {
-    	company blank:false
     	product blank:false
-    	counter nullable:true
     	price blank:false
-    	comment blank:false
+    	itemsToSale blank:false
+    	fromDate blank:false
+    	toDate blank:false
+    	claimFrom blank:false
+    	claimUp blank:false
     	gender inList:['male','female','unisex']
-    	age inList:['child','young','adult','young and adult','all']//is another entity a better solution?
+    	age inList:['child','young','adult','young and adult','all'], blank:false
+    	description blank:false, maxSize:10000
     }
 
     String toString() {
     	product
     }
 
+    static mapping = {
+        subsidiaries sort:'dateCreated'
+    }
+
     static belongsTo = [company:Company]
 
-    static hasMany = [subsidiaries:Subsidiary]
+    static hasMany = [subsidiaries:Subsidiary, buys:Buy]
 
 }

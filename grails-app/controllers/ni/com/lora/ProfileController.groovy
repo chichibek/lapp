@@ -26,6 +26,10 @@ class ProfileController {
     def renderAvatar() {
     	def profileInstance = Profile.get(session?.user?.profile?.id)
 
+        println profileInstance?.avatar
+
+        
+
 		response.setContentLength(profileInstance.avatar.length)
 		response.outputStream.write(profileInstance.avatar)
     }

@@ -1,0 +1,37 @@
+import grails.util.GrailsUtil
+
+class BootStrap {
+
+    def init = { servletContext ->
+    	switch(GrailsUtil.environment) {
+            case 'development':
+                //PROFILE
+
+                def adminProfile = new ni.com.lora.Profile(
+                    fullName:'Mario Martinez'
+                )
+                adminProfile.save(flush:true)
+                
+                def admin = new ni.com.lora.User(
+                    userName:'admin',
+                    email:'amakenadog@gmail.com',
+                    address:'macondo',
+                    identityCard:'123',
+                    password:'admin',
+                    role:'admin',
+                    enabled:true,
+                    profile:adminProfile
+                )
+
+                if(admin.hasErrors()) {
+                    println admin.error
+                } 
+
+                admin.save(flush:true)
+                
+                break
+        }
+    }
+    def destroy = {
+    }
+}

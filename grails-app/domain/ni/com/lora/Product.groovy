@@ -4,13 +4,13 @@ class Product {
 
 	String name
 	Double price
-	byte[] image
+	byte[] avatar
 	Date dateCreated
 
     static constraints = {
     	name blank:false
     	price blank:false
-    	image nullable:true, maxSize:240000
+    	avatar nullable:true, maxSize:250000
     }
 
     static belongsTo = [company:Company]

@@ -27,9 +27,11 @@
 			</g:uploadForm>
 		</div>
 		<div class="span4">
-			<lapp:renderAvatar profile="${userProfileInstance}"/>
-			<br>
-			<g:link action="unlinkAvatar">x</g:link>
+			<g:if test="${userProfileInstance?.avatar}">
+				<img src="${createLink(action:'renderAvatar')}"/>
+				<br>
+				<g:link action="unlinkAvatar">x</g:link>
+			</g:if>
 		</div>
 	</div>
 </body>

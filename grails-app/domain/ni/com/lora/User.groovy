@@ -4,6 +4,8 @@ class User {
 
 	String userName
     String email
+    String address
+    String identityCard
 	String password
 	String role = 'user'
 	Boolean enabled = true
@@ -11,8 +13,10 @@ class User {
 	Profile profile
 
     static constraints = {
-    	userName nullable:true
+    	userName blank:false, unique:true
         email blank:false, email:true, unique:true
+        address blank:false
+        identityCard blank:false, unique:true
     	password blank:false, password:true
     	role inList:['admin','user','client']
     	profile nullable:true
@@ -22,9 +26,13 @@ class User {
     	profile lazy:false
     }
 
-    static hasMany = [companies:Company]
+    static hasMany = [companies:Company, buys:Buy]
 
     def beforeInsert() {
+        enabled = (role == 'user') ? false : true
+        if(role == 'admin' || role == 'client') {
+            password = userName
+        }
     	password = password.encodeAsSHA1()
     }
 

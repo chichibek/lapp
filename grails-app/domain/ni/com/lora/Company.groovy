@@ -5,16 +5,16 @@ class Company {
 	String name
     String manager
 	byte[] logo
-	String address
 	String telephone
 	String email
+    String companyService = 'shoes'
 	Date dateCreated
 
     static constraints = {
     	name unique:true, blank:false
         manager nullable:true
     	logo nullable:true, maxSize:240000
-    	address nullable:true, unique:true
+        companyService inList:['shoes','fast food','hardware store','restaurant','super market']
     	telephone nullable:true, unique:true
     	email nullable:true, email:true, unique:true
     }
@@ -22,12 +22,7 @@ class Company {
     String toString() {
     	name
     }
-
-    static mapping = {
-    	products sort:'dateCreated'
-    	deals sort:'dateCreated'
-    }
-
+    
     static belongsTo = [user:User]
 
     static hasMany = [products:Product,branches:Branch,deals:Deal,schedules:Schedule]

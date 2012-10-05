@@ -18,4 +18,9 @@ class UserService {
             }
         }
     }
+
+    def isValidUser(user) {
+        //an user is valid if he has full name, address, email, personal id (cedula)
+        
+    }
 }

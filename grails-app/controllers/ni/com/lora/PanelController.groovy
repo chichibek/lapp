@@ -5,4 +5,5 @@ class PanelController {
     static defaultAction = 'main'
 
     def main() { }
+
 }

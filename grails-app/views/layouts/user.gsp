@@ -10,9 +10,10 @@
 	<div class="container main">
 		<div class="row">
 			<div class="span2">
-				<g:render template="/layouts/settings-sidebar"/>
+				<g:render template="/layouts/panel-sidebar"/>
 			</div>
 			<div class="span10">
+				<g:render template="/layouts/user-toolbar"/>
 				<g:layoutBody/>
 				<lapp:flashMessage/>
 			</div>

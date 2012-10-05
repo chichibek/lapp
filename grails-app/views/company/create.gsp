@@ -10,11 +10,11 @@
 		<g:renderErrors bean="${companyInstance}" as="list"/>
 	</g:hasErrors>
 
-	<g:form action="save">
+	<g:uploadForm action="save">
 		<g:hiddenField name="user.id" value="${session?.user?.id}"/>
 		<g:render template="form"/>
 		<br>
 		<g:submitButton name="send" value="${message(code:'ni.com.lora.save')}" class="btn"/>
-	</g:form>
+	</g:uploadForm>
 </body>
 </html>

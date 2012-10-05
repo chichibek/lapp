@@ -5,7 +5,6 @@ class Profile {
 	byte[] avatar
 	String fullName
     String gender
-    //String numero de cedula
     Date birthDay
     String city
 
