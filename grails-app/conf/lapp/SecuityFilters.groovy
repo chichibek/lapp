@@ -26,7 +26,7 @@ class SecuityFilters {
         //user:create|save|change|edit|update|show*|delete|get*
         //deal:is*|create|save|show|update|delete|change*|close|detail|listClosed*|listClosed*
         //buy:show|change*|total*
-        onlyAdmin(controller:'*',action:'(create|edit|show|delete|save|update|render*|companies*|get*|is*|change*|close|detail|listClosed*|total*)') {
+        onlyAdmin(controller:'*',action:'(create|edit|show|delete|save|update|companies*|get*|is*|change*|close|detail|listClosed*|total*)') {
             before = {
                 if(session?.user) {
                     def role = session?.user?.role
