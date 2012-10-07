@@ -15931,3 +15931,30 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at groovy.lang.Closure.call(Closure.java:409)
 	at groovy.lang.Closure.run(Closure.java:493)
 	at java.lang.Thread.run(Thread.java:679)
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "BRANCH" not found; SQL statement:
+alter table branch drop constraint FKADAF25A28EA4A89E [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "BUY" not found; SQL statement:
+alter table buy drop constraint FK17E86441456 [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "BUY" not found; SQL statement:
+alter table buy drop constraint FK17E8664D344B6 [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "COMPANY" not found; SQL statement:
+alter table company drop constraint FK38A73C7D441456 [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "DEAL" not found; SQL statement:
+alter table deal drop constraint FK2EFC6C8EA4A89E [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT" not found; SQL statement:
+alter table product drop constraint FKED8DCCEF8EA4A89E [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SCHEDULE" not found; SQL statement:
+alter table schedule drop constraint FKD66692978EA4A89E [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "SUBSIDIARY" not found; SQL statement:
+alter table subsidiary drop constraint FKC0C394ED64D344B6 [42102-164]
+10-06 20:44:10 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+alter table user drop constraint FK36EBCB3459891E [42102-164]
