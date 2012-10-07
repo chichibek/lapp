@@ -1,3 +1,4 @@
+<!--
 <table class="table table-condensed table-bordered">
 	<thead>
 		<tr>
@@ -12,7 +13,14 @@
 		</tr>
 	</tbody>
 </table>
+-->
+<div class="alert alert-info">
+	${dealInstance?.toDate - dealInstance?.fromDate} <g:message code="ni.com.lora.daylefttobuy"/> 
+	<br>
+	${dealInstance?.itemsToSale} <g:message code="ni.com.lora.productsinstock"/>
+</div>
 
+<!--
 <legend><g:message code="ni.com.lora.branchandschedules"/></legend>
 <h5><g:message code="ni.com.lora.branch"/></h5>
 
@@ -21,8 +29,18 @@
 		<li>${subsidiary?.name}</li>
 	</g:each>
 </ul>
+-->
 
+<div class="alert alert-info">
 <h5><g:message code="ni.com.lora.claim"/></h5>
+<ul>
+	<g:each in="${dealInstance?.subsidiaries}" var="subsidiary">
+		<li>${subsidiary?.name}</li>
+	</g:each>
+</ul>
+
+<h5><g:message code="ni.com.lora.from"/></h5>
+
 <table class="table table-condensed table-bordered">
 	<thead>
 		<tr>
@@ -38,7 +56,10 @@
 			</tr>
 		</g:each>
 	</tbody>
-	</table>
+</table>
+</div>
+
+<div class="alert">
 <h5><g:message code="ni.com.lora.schedule"/></h5>
 	<table class="table table-condensed table-bordered">
 		<thead>
@@ -60,3 +81,4 @@
 			</g:each>
 		</tbody>
 </table>
+</div>

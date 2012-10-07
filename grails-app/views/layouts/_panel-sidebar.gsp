@@ -16,7 +16,7 @@
 		</g:link>
 	</li>
 	<li>
-		<g:link controller="deal" action="listClient">
+		<g:link controller="deal" action="listClosedDeals">
 			<g:include controller="deal" action="countClosedDeals"/> 
 			<g:message code="ni.com.lora.newdealclosenotification"/>
 		</g:link>

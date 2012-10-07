@@ -188,6 +188,10 @@ class DealController {
         render dealInstanceList.size()
     }
 
+    def listClosedDeals() {
+        [dealInstanceList:Deal.findAllByState(false)]
+    }
+
     //public
     def all() {
         def query = Deal.createCriteria()

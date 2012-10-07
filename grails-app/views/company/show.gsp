@@ -57,7 +57,6 @@
 						<g:link controller="schedule" action="create" class="btn"><i class="icon-calendar"></i></g:link>
 					</div>
 					<div class="btn-group">
-						<g:link action="list" name="user.id" params="[id:"${user}"]" class="btn"><i class="icon-pencil"></i></g:link>
 						<g:link action="edit" params="[id:companyInstance.id, user:"${user}"]" class="btn"><i class="icon-wrench"></i></g:link>
 						<g:link action="delete" params="[id:companyInstance.id, user:"${user}"]" Onclick="return confirm('${message(code:'ni.com.lora.delete')}');" class="btn"><i class="icon-trash"></i></g:link>
 					</div>

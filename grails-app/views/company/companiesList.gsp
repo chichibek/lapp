@@ -12,7 +12,7 @@
 		<ul class="block-grid five-up">
 			<g:each in="${companyInstanceList}" var="company" status="i">
 				<li>
-					<div class="row-fluid">
+					<div class="row">
 						<div class="span12">
 							<g:if test="${company?.logo}">
 								<figure class="companiesImg">

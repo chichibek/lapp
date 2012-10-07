@@ -16,7 +16,7 @@ class Product {
     static belongsTo = [company:Company]
 
     String toString() {
-    	name
+    	"$name - $price"
     }
 
 }

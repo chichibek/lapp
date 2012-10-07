@@ -35,14 +35,20 @@ class UserController {
     	}
 
     	session.user = userInstance
-        if(session?.user?.role == 'admin') {
-            redirect(action:'list')
-        }else{
-            if(params.deal) {
-                redirect(controller:'deal', action:'featured', params:[id:params.deal, quantity:params.quantity])
-            }else{
-                redirect(controller:'buy', action:'list')
-            }
+        switch(session?.user?.role) {
+            case 'admin':
+                redirect(action:'list')    
+                break
+            case 'client':
+                redirect(controller:'company', action:'list', params:[id:userInstance?.id])
+                break
+            case 'user':
+                if(params.deal) {
+                    redirect(controller:'deal', action:'featured', params:[id:params.deal, quantity:params.quantity])
+                }else{
+                    redirect(controller:'buy', action:'list')
+                }
+                break
         }
     }
 

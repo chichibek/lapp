@@ -3,6 +3,8 @@ package ni.com.lora
 class CompanyController {
     def avatarService
 
+    //def beforeIn
+
     def index() { 
     	redirect(action:'list',params:params)
     }
@@ -86,9 +88,7 @@ class CompanyController {
 
     def renderLogo(){
         def companyInstance = Company.get(params.id)
-
-        println companyInstance
-
+        
         response.setContentLength(companyInstance.logo.length)
         response.outputStream.write(companyInstance.logo)
     }

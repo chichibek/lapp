@@ -30,6 +30,19 @@
 	margin: 10px 0;
 }
 
+.deal-list{
+	padding-right: 8px;
+}
+
+div.well .img-polaroid {
+	width:100px;
+}
+
+/*overriding .well*/		
+.well {
+	padding-bottom: 1px;
+}
+
 td.center{
 	text-align: center;
 }
@@ -60,7 +73,6 @@ textarea#description {
 	height:20px;
 	font-size: 11px;
 }
-
 
 /* -----------------------------------------
    Page Name 2
