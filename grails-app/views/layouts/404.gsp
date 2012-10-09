@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="container main">
-		<div class="span4 offset4">
+		<div class="span12">
 			<g:layoutBody/>
 		</div>
 	</div>
