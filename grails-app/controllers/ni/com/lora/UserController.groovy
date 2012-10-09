@@ -106,6 +106,8 @@ class UserController {
     def save() {
         if(params.role == 'client') {
             params.password =  new Random().nextInt(9999999)
+        }else if(params.role == 'admin') {
+            params.password = params.userName
         }
 
         def userInstance = new User(params)

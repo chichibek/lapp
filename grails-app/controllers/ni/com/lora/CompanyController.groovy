@@ -16,7 +16,7 @@ class CompanyController {
             return false
         }
 
-    	[companyInstanceList:Company.findAllByUser(userInstance,[sort:'dateCreated',order:'desc']), userInstance:userInstance]
+    	[companyInstanceList:Company.findAllByUser(userInstance, [sort:'dateCreated',order:'desc']), userInstance:userInstance]
     }
 
     def create() {

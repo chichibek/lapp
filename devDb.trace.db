@@ -16287,3 +16287,9 @@ alter table subsidiary drop constraint FKC0C394ED64D344B6 [42102-164]
 10-08 18:51:58 jdbc[2]: exception
 org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
 alter table user drop constraint FK36EBCB3459891E [42102-164]
+10-08 20:27:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM COMPANY WHERE USER_ID 6[*] "; SQL statement:
+SELECT * FROM COMPANY where USER_ID 6 [42000-164]
+10-08 20:27:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM COMPANY WHERE USER_ID 6[*] "; SQL statement:
+SELECT * FROM COMPANY where USER_ID 6 [42000-164]
