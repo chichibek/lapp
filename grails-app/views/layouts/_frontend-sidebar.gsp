@@ -12,6 +12,6 @@
 
 <ul class="nav nav-tabs nav-stacked">
 	<li><g:link uri="/faq">Faq's</g:link></li>
-	<li><g:link uri="/promise">Nuestra promesa</g:link></li>
+	<li><g:link uri="/promise"><g:message code="ni.com.lora.promise"/></g:link></li>
 	<li><g:link uri="/howitswork"><g:message code="ni.com.lora.howitworks"/></g:link></li>
 </ul>
