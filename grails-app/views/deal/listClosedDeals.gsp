@@ -14,5 +14,10 @@
 			</div>
 		</g:each>
 	</g:if>
+	<g:else>
+		<div class="alert">
+			<g:message code="ni.com.lora.nothingtoshow"/>
+		</div>
+	</g:else>
 </body>
 </html>

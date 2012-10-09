@@ -50,6 +50,8 @@
 		</table>
 	</g:if>
 	<g:else>
-		<g:message code="ni.com.lora.nothingtoshow"/>
+		<div class="alert">
+			<g:message code="ni.com.lora.nothingtoshow"/>
+		</div>
 	</g:else>
 </body>
