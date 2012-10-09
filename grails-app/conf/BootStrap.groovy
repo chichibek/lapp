@@ -77,6 +77,16 @@ class BootStrap {
                     profile:markProfile
                 )
 
+                def benbenuto = new ni.com.lora.User(
+                    userName:'benbenuto',
+                    email:'rhadned147@yahoo.com',
+                    password:'benbenuto',
+                    address:'mina el limon 1/2 cuadra hacia Macondo',
+                    identityCard:'101112887785',
+                    role:'client',
+                    enabled:'true'
+                )
+
                 //COMPANY
                 def ubuntu = new ni.com.lora.Company(
                     name:'ubuntu',
@@ -97,12 +107,12 @@ class BootStrap {
 
                 //PRODUCTS
                 def pizza = new ni.com.lora.Product(
-                    name:'imperial',
+                    name:'pizza',
                     price:150
                 )
 
                 def hamburgesa = new ni.com.lora.Product(
-                    name:'taparteria',
+                    name:'hamburgesa',
                     price:155.5
                 )
 
@@ -148,8 +158,10 @@ class BootStrap {
                 } 
 
                 mark.save(flush:true)
+                benbenuto.save(flush:true)
 
                 //DEAL
+                
                 break
         }
     }

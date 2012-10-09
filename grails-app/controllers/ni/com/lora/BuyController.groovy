@@ -101,7 +101,37 @@ class BuyController {
     }
 
     def countNewBuys() {
-        def buyInstanceList = Buy.findAllByPaid(false)
+        //TODO:create query that check all buys with paid false that belongs to a company of the current client user
+        def buyInstanceList
+        def count = 0
+        
+        //if (session?.user?.role == 'admin') {
+            buyInstanceList = Buy.findAllByPaid(false)
+        //}else if(session?.user?.role == 'client') {
+            def userInstance = User.findByUserName(session.user.userName)
+
+            userInstance?.companies.each {
+                def company = it.name
+                /*
+                if(it?.deals && it?.deals?.state) {
+                    it.deals.each {
+                        if(it?.buys && it?.buys?.paid) {
+                            println it
+                        }
+                    }
+                }
+                */
+
+                if(it.deals && it.deals.state) {
+                    it?.deals?.each {
+                        //println it
+                    }    
+                }
+                
+            }
+
+        //}
+
         render buyInstanceList.size()
     }
 }

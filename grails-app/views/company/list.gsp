@@ -61,13 +61,34 @@
 							</g:else>
 						</div>
 						<div class="span8">
-							<ul class="unstyled">
-								<li>${company?.name}</li>
-								<li>${company?.manager}</li>
-								<li>${company?.companyService} service</li>
-								<li>${company?.telephone}</li>
-								<li>${compnay?.email}</li>
-							</ul>
+							<table>
+								<tbody>
+									<tr>
+										<td><strong><g:message code="ni.com.lora.name"/></strong></td>
+										<td>${company?.name}</td>
+									</tr>
+									<tr>
+										<td><strong><g:message code="ni.com.lora.manager"/></strong></td>
+										<td>${company?.manager}</td>
+									</tr>
+									<tr>
+										<td><strong><g:message code="ni.com.lora.companyservice"/></strong></td>
+										<td>${company?.companyService}</td>
+									</tr>
+									<tr>
+										<td><strong><g:message code="ni.com.lora.telephone"/></strong></td>
+										<td>${company?.telephone}</td>
+									</tr>
+									<tr>
+										<td><strong><g:message code="ni.com.lora.email"/></strong></td>
+										<td>${company?.email}</td>
+									</tr>
+									<tr>
+										<td><strong><g:message code="ni.com.lora.datecreated"/></strong></td>
+										<td><g:formatDate date="${company?.dateCreated}" type="datetime" style="MEDIUM"/></td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 					<div class="row">

@@ -11,6 +11,7 @@ class Deal {
 	String description
 	Boolean published = false
 	Boolean state = true
+    Boolean closed = false
 	String gender
 	String age = 'all'
 	Date dateCreated

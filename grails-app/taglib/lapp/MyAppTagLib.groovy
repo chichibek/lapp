@@ -84,4 +84,10 @@ class MyAppTagLib {
 			out << "</span>"
 		}
 	}
+
+	def isDealClosed = {attrs, body ->
+		if(!attrs.state){
+			out << body()	
+		}
+	}
 }

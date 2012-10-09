@@ -26,21 +26,20 @@ class SecuityFilters {
         //user:create|save|change|edit|update|show*|delete|get*
         //deal:is*|create|save|show|update|delete|change*|close|detail|listClosed*|listClosed*
         //buy:show|change*|total*
-        onlyAdmin(controller:'*',action:'(create|edit|show|delete|save|update|companies*|get*|is*|change*|close|detail|listClosed*|total*)') {
+        onlyAdmin(controller:'*',action:'(create|edit|show|delete|save|update|companies*|is*|change*|close|detail|listClosed*|total*)') {
             before = {
-                if(session?.user) {
-                    def role = session?.user?.role
-
+                def role = session?.user?.role
+                if(role != 'admin') {
                     switch(role) {
                         case 'client':
                             redirect(controller:'company', action:'list', id:session?.user?.id)
+                            return false
                             break
                         case 'user':
                             redirect(controller:'buy', action:'list')
+                            return false
                             break
                     }
-
-                    return false
                 }        
             }
         }

@@ -5,12 +5,14 @@
 </lapp:isAdmin>
 
 <ul class="nav nav-tabs nav-stacked">
-	<li>
-		<g:link controller="user" action="list" params="[role:'user']" elementId="newusers" rel="popover">
-			<g:include controller="user" action="countNewUsers"/> 
-			<g:message code="ni.com.lora.newusernotification"/>
-		</g:link>
-	</li>
+	<lapp:isAdmin>
+		<li>
+			<g:link controller="user" action="list" params="[role:'user']" elementId="newusers" rel="popover">
+				<g:include controller="user" action="countNewUsers"/> 
+				<g:message code="ni.com.lora.newusernotification"/>
+			</g:link>
+		</li>
+	</lapp:isAdmin>
 	<li>
 		<g:link controller="buy" action="listNewBuys">
 			<g:include controller="buy" action="countNewBuys"/> 

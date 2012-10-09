@@ -169,7 +169,7 @@ class DealController {
     }
 
     def detail() {
-        def dealInstance = dealService.show(params.id,params.company)\
+        def dealInstance = dealService.show(params.id,params.company)
 
         if(!dealInstance) {
             flash.message = message(code:'ni.com.lora.notfound')
@@ -183,8 +183,22 @@ class DealController {
     def countClosedDeals() {
         def today = new Date()
         def yesterday = today - 1
-
         def dealInstanceList = Deal.findAllByState(false)
+        def role = session?.user?.role
+
+        if(role == 'client') {
+            def userInstance = User.findByUserName(session?.user?.userName)
+            def companies = userInstance.companies.asList()
+
+            def query = Deal.where {
+               (state == false) && (company.name in ['ubuntu','sublime2text'])
+            }
+            Deal result = query.find()
+
+            render result
+            return false
+        }
+
         render dealInstanceList.size()
     }
 

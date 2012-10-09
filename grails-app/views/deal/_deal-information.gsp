@@ -2,7 +2,7 @@
 	<tbody>
 		<tr>
 			<td><g:message code="ni.com.lora.state"/></td>
-			<td><lapp:dealState state="${dealState?.state}"/></td>
+			<td><lapp:dealState state="${dealInstance?.state}"/></td>
 		</tr>
 		<tr>
 			<td><g:message code="ni.com.lora.published"/></td>

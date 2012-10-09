@@ -2,9 +2,7 @@ package ni.com.lora
 
 class CompanyController {
     def avatarService
-
-    //def beforeIn
-
+    
     def index() { 
     	redirect(action:'list',params:params)
     }
