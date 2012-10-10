@@ -2,7 +2,7 @@ package ni.com.lora
 
 class UserController {
     def userService
-    def beforeInterceptor = [action:this.&validate, only:['edit']]
+    def beforeInterceptor = [action:this.&validate, only:['edit', 'create']]
 
     static defaultAction = 'login'
 
@@ -13,10 +13,13 @@ class UserController {
             return false
         }
 
-        if(params.role == 'user' || params.role == 'admin') {
-            flash.message = message(code:'ni.com.lora.notcompany')
-            redirect(action:'list',params:[role:params.role])
-            return false
+        //TODO:check if for admin is this realy necesarie
+        if(actionName == 'edit') {    
+            if(params.role == 'user' || params.role == 'admin') {
+                flash.message = message(code:'ni.com.lora.notcompany')
+                redirect(action:'list',params:[role:params.role])
+                return false
+            }
         }
     }
 
