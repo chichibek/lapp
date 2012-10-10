@@ -20,7 +20,7 @@ class CompanyController {
     }
 
     def create() {
-    	[companyInstance:new Company(params)]
+    	[companyInstance:new Company(params), userInstance: User.get(params.id)]
     }
 
     def save() {
@@ -32,8 +32,10 @@ class CompanyController {
             return false
         }
 
+        println companyInstance.ident()
+
         flash.message = message(code:'ni.com.lora.success')
-        redirect(action:'create')
+        redirect(action:'show', params:[id:companyInstance.ident()])
     }
 
     def show() {

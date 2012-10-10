@@ -11,7 +11,7 @@
 	</g:hasErrors>
 
 	<g:uploadForm action="save">
-		<g:hiddenField name="user.id" value="${session?.user?.id}"/>
+		<g:hiddenField name="user.id" value="${params.id}"/>
 		<g:render template="form"/>
 		<br>
 		<g:submitButton name="send" value="${message(code:'ni.com.lora.save')}" class="btn"/>

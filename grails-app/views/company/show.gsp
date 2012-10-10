@@ -11,10 +11,10 @@
 		<div class="row">
 			<div class="span2">
 				<g:if test="${companyInstance?.logo}">
-             		<img style="width:100%;height:100%;"src="${createLink(action:'renderlogo', id:companyInstance.id)}" alt="imagen">
+             		<img src="${createLink(action:'renderLogo', id:companyInstance.id)}" alt="${companyInstance?.name}" class="img-polaroid">
         		</g:if>
 				<g:else>
-				    <img src="${resource(dir:'images', file:'persona.jpg')}" alt="persona" class="img-polaroid"/>
+				    <r:img uri="/images/persona.jpg" alt="persona" class="img-polaroid"/>
 				</g:else>
 			</div>
 			<div class="span8">
@@ -52,20 +52,22 @@
 			<div class="span10">
 				<div class="btn-toolbar">
 					<div class="btn-group">
-						<g:link controller="branch" action="list" class="btn"><i class="icon-home"></i></g:link>
-						<g:link controller="product" action="list" class="btn"><i class="icon-list"></i></g:link>
-						<g:link controller="schedule" action="create" class="btn"><i class="icon-calendar"></i></g:link>
+						<g:link controller="branch" params="[id:companyInstance?.id, company:companyInstance?.user?.id]" class="btn"><i class="icon-home"></i></g:link>
+						<g:link controller="product" params="[id:companyInstance?.id, company:companyInstance?.user?.id]" class="btn"><i class="icon-list"></i></g:link>
+						<g:link controller="schedule" params="[id:companyInstance?.id, company:companyInstance?.user?.id]" class="btn"><i class="icon-calendar"></i></g:link>
 					</div>
 					<div class="btn-group">
-						<g:link action="edit" params="[id:companyInstance.id, user:"${user}"]" class="btn"><i class="icon-wrench"></i></g:link>
-						<g:link action="delete" params="[id:companyInstance.id, user:"${user}"]" Onclick="return confirm('${message(code:'ni.com.lora.delete')}');" class="btn"><i class="icon-trash"></i></g:link>
+						<g:link action="edit" params="[id:companyInstance?.id, company:companyInstance?.user?.id]" class="btn"><i class="icon-wrench"></i></g:link>
+						<g:link action="delete" params="[id:companyInstance?.id, company:companyInstance?.user?.id]" Onclick="return confirm('${message(code:'ni.com.lora.delete')}');" class="btn"><i class="icon-trash"></i></g:link>
 					</div>
 				</div>
 			</div>
 		</div>
 	</g:if>
 	<g:else>
-		<g:message code="ni.com.lora.nothingtoshow"/>
+		<div class="alert">
+			<g:message code="ni.com.lora.nothingtoshow"/>
+		</div>
 	</g:else>
 </body>
 </html>

@@ -188,6 +188,8 @@ class UserController {
             }
         }
 
+        println userInstance.isDirty()
+
         flash.message = message(code:'ni.com.lora.success')  
         redirect(action:'showClient', params:[id:params.id, role:params.role])
     }

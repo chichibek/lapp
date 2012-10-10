@@ -6,18 +6,18 @@
 	<r:require modules="common, commonJS, list"/>
 </head>
 <body>
-	<g:if test="${userInstanceList}">
-		<div class="btn-toolbar">
-			<div class="btn-group">
-				<g:link action="create" params="[role:params?.role]" class="btn"><i class="icon-plus"></i></g:link>
-			</div>
-			<div class="btn-group">
-				<g:link action="list" params="[role:'admin']" class="btn"><g:message code="ni.com.lora.admin"/></g:link>
-				<g:link action="list" params="[role:'user']" class="btn"><g:message code="ni.com.lora.user"/></g:link>
-				<g:link action="list" params="[role:'client']" class="btn"><g:message code="ni.com.lora.client"/></g:link>
-			</div>
+	<div class="btn-toolbar">
+		<div class="btn-group">
+			<g:link action="create" params="[role:params?.role]" class="btn"><i class="icon-plus"></i></g:link>
 		</div>
-		<br>
+		<div class="btn-group">
+			<g:link action="list" params="[role:'admin']" class="btn"><g:message code="ni.com.lora.admin"/></g:link>
+			<g:link action="list" params="[role:'user']" class="btn"><g:message code="ni.com.lora.user"/></g:link>
+			<g:link action="list" params="[role:'client']" class="btn"><g:message code="ni.com.lora.client"/></g:link>
+		</div>
+	</div>
+	<br>
+	<g:if test="${userInstanceList}">
 		<table class="table">
 			<thead>
 				<tr>
@@ -54,7 +54,9 @@
 		</table>
 	</g:if>
 	<g:else>
-		<g:message code="ni.com.lora.nothingtoshow"/>
+		<div class="alert">
+			<g:message code="ni.com.lora.nothingtoshow"/>
+		</div>
 	</g:else>
 	<!--POPOVER-->
 	<div class="popover fade right in">

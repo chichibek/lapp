@@ -163,6 +163,28 @@ class BootStrap {
                 //DEAL
                 
                 break
+            case 'production':
+                
+                def ap = new ni.com.lora.Profile(
+                    fullName:'Juan Perez'
+                )
+                ap.save(flush:true)
+
+                //USER
+                def a = new ni.com.lora.User(
+                    userName:'admin',
+                    email:'juanperez@gmail.com',
+                    address:'macondo 1/2 cuadra abajo',
+                    identityCard:'2316-445588776-001w',
+                    password:'admin',
+                    role:'admin',
+                    enabled:true,
+                    profile:ap
+                )
+
+                a.save(flush:true)            
+
+                break
         }
     }
     def destroy = {

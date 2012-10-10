@@ -24,25 +24,21 @@
 			<tbody>
 				<g:each in="${branchInstanceList}">
 				<tr>
-					
 					<td style="width:1px;">
 						<g:link action="show" params="[id:it.id,company:params.id]">
 							<i class="icon-pencil"></i>
 						</g:link>
 					</td>
-
 					<td style="width:1px;">
 						<g:link action="edit" params="[id:it.id,company:params.id]">
 							<i class="icon-wrench"></i>
 						</g:link>
 					</td>
-
 					<td style="width:1px;">
 						<g:link action="delete" params="[id:it.id,company:params.id]" Onclick="return confirm('${message(code: 'ni.com.lora.delete')}');">
 							<i class="icon-trash"></i>
 						</g:link>
 					</td>
-
 					<td><g:fieldValue bean="${it}" field="name"/></td>
 					<td><g:fieldValue bean="${it}" field="manager"/></td>
 					<td><g:fieldValue bean="${it}" field="address"/></td>
@@ -54,7 +50,9 @@
 		</table>
 	</g:if>
 	<g:else>
-		<g:message code="ni.com.lora.nothingtoshow"/>
+		<div class="alert">
+			<g:message code="ni.com.lora.nothingtoshow"/>
+		</div>
 	</g:else>
 </body>
 </html>

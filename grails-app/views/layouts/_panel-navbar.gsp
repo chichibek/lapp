@@ -2,10 +2,13 @@
 	<div class="navbar-inner">
 		<div class="container">
 			<g:if test="${session?.user?.role == 'admin'}">
-				<g:link controller="user" action="account" class="brand">Muerta la Lora</g:link>
+				<g:link controller="user" action="list" params="[role:'client']" class="brand">Muerta la Lora</g:link>
 			</g:if>
-			<g:else if test="${session?.user?.role == 'user'}">
+			<g:elseif test="${session?.user?.role == 'user'}">
 				<g:link controller="buy" action="list" class="brand">Muerta la Lora</g:link>
+			</g:elseif>
+			<g:else>
+				<g:link controller="company" action="list" params="[id:session?.user?.id]" class="brand">Muerta la lora</g:link>
 			</g:else>
 			<ul class="nav pull-right">
 				<li class="dropdown">
