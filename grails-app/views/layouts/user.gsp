@@ -15,6 +15,7 @@
 			<div class="span10">
 				<g:render template="/layouts/user-toolbar"/>
 				<g:layoutBody/>
+				<br>
 				<lapp:flashMessage/>
 			</div>
 		</div>
