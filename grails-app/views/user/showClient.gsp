@@ -15,6 +15,10 @@
 					<td><g:fieldValue bean="${userInstance}" field="userName"/></td>
 				</tr>
 				<tr>
+					<th><g:message code='ni.com.lora.fullname'/></th>
+					<td><g:fieldValue bean="${userInstance?.profile}" field="fullName"/></td>
+				</tr>
+				<tr>
 					<th><g:message code='ni.com.lora.address'/></th>
 					<td><g:fieldValue bean="${userInstance}" field="address"/></td>
 				</tr>
@@ -41,7 +45,9 @@
 		</div>
 	</g:if>
 	<g:else>
-		<g:message code="ni.com.lora.nothingtoshow"/>
+		<div class="alert">
+			<g:message code="ni.com.lora.nothingtoshow"/>
+		</div>
 	</g:else>
 </body>
 </html>

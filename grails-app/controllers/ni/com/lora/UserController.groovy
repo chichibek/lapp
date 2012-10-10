@@ -173,6 +173,8 @@ class UserController {
 
         if(!userInstance){
             flash.message = message(code:'ni.com.lora.notfound')
+            redirect(action:'list', params:[role:params.role])
+            return false
         }else{
             userInstance.properties = params
 
@@ -180,12 +182,11 @@ class UserController {
                 flash.message = message(code:'ni.com.lora.error')
                 render(view:"edit", model:[userInstance:userInstance], params=[id:params.id, role:params.role])
                 return false
-            }else{
-                flash.message = message(code:'ni.com.lora.success')  
             }
         }
 
-        redirect(action:'list', params:[role:params.role])
+        flash.message = message(code:'ni.com.lora.success')  
+        redirect(action:'showClient', params:[id:params.id, role:params.role])
     }
 
     def showClient() {

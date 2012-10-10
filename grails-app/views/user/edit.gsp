@@ -16,8 +16,7 @@
 		</div>
 	</g:hasErrors>
 
-	<g:form name="form" action="update">
-		<g:hiddenField name="id" value="${params.id}"/>
+	<g:form name="form" action="update" params="[id:params.id, role:params.role]">
 		<g:render template="form"/>
 		<br>
 		<g:submitButton name="name" value="${message(code:'ni.com.lora.update')}" class="btn"/>

@@ -16,7 +16,7 @@
 		</div>
 	</g:hasErrors>
 
-	<g:form name="form" action="save">
+	<g:form name="form" action="save" params="[role:params.role]">
 		<g:render template="form"/>
 		<br>
 		<g:submitButton name="name" value="${message(code:'ni.com.lora.save')}" class="btn"/>
