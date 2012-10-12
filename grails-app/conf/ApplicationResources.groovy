@@ -35,4 +35,10 @@ modules = {
         resource url:'js/bootstrap-popover.js'
         resource url:'js/popover-scenario.js'
     }
+
+    overrides {
+        'jquery-theme' {
+            resource id:'theme', url:'css/jquery-ui-1.9.0.custom.css'
+        }
+    }
 }
