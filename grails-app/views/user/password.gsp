@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
+	<meta name="layout" content="profile">
 	<title></title>
 	<r:require modules="common,commonJS"/>
 </head>

@@ -1,3 +1,4 @@
+<!--TODO:fix main link for every user role-->
 <ul class="nav nav-tabs nav-stacked">
 	<li>
 		<g:if test="${session?.user?.role == 'admin'}">
