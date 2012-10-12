@@ -20,6 +20,11 @@ modules = {
         resource url:'js/deal.js'
     }
 
+    profile {
+        dependsOn 'common, commonJS, jquery'
+        resource url:'js/profile.js'
+    }
+
     companiesList {
         dependsOn 'common'
         resource url:'css/foundation.min.css'
