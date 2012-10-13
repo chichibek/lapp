@@ -206,6 +206,18 @@ class DealController {
         [dealInstanceList:Deal.findAllByState(false)]
     }
 
+    //TODO:both render actions must go in it controller, here should be a service call
+    def renderProductAvatar() {
+        def allProduct = Product.get(params.id)
+        response.setContentLength(allProduct.avatar.length)
+        response.outputStream.write(allProduct.avatar)
+    }
+
+    def renderLogo(){
+        def allProduct = Product.findByName(params.productName)
+        render template:"show-product", model:[allProduct:allProduct]
+    }
+
     //public
     def all() {
         def query = Deal.createCriteria()

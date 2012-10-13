@@ -1,5 +1,10 @@
 <label for="product"><g:message code="ni.com.lora.product"/></label>
-<g:select name="product" from="${companyInstance?.products}" optionKey="name" value="${dealInstance?.product}"/>
+<g:select name="product" from="${companyInstance?.products}" optionKey="name" value="${dealInstance?.product}" onchange="${remoteFunction(
+            controller:'deal', 
+            action:'renderLogo', 
+             params: '\'productName=\' + this.value',
+             update: [success: 'productlogo'] 
+            )}", noSelection="${['null':'this.value']}"/>
 
 <label for="price"><g:message code="ni.com.lora.price"/></label>
 <g:textField name="price" value="${dealInstance?.price}"/>
