@@ -7,8 +7,21 @@ class ScheduleController {
     }
 
     def list() {
-    	def scheduleInstanceList = Schedule.findAllByCompany(Company.get(params.id))
-    	[scheduleInstanceList:scheduleInstanceList,scheduleInstanceTotal:scheduleInstanceList.size()]
+        /*
+        TODO:check issue whit this action. i.e if user client in address bar type another company id 
+        it will get the other company information, if the user client repit this action whit a not valid 
+        id it will redicert to admin page
+        */
+        def companyInstance = Company.get(params.id)
+        def scheduleInstanceList = Schedule.findAllByCompany(companyInstance)
+        [scheduleInstanceList:scheduleInstanceList,scheduleInstanceTotal:scheduleInstanceList.size(), companyInstance:companyInstance]
+    }
+
+    def renderLogo() {
+        //TODO:this action must be a service
+        def companyInstance = Company.get(params.id)
+        response.setContentLength(companyInstance.logo.length)
+        response.outputStream.write(companyInstance.logo)
     }
 
     def create() {

@@ -6,7 +6,7 @@
 	<r:require modules="common,commonJS"/>
 </head>
 <body>
-	<g:if test="${companyInstanceList}">
+	<g:if test="${companyInstance}">
 		<h5>${userInstance}</h5>
 			<g:if test="${session?.user?.role == 'admin'}">
 			<table class="table">
@@ -26,7 +26,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<g:each in="${companyInstanceList}">
+					<g:each in="${companyInstance}">
 					<tr>
 						<td><g:link controller="deal" params="[id:it.id,company:params.id]"><i class="icon-shopping-cart"></i></g:link></td>
 						<td><g:link controller="branch" params="[id:it.id,company:params.id]"><i class="icon-home"></i></g:link></td>
@@ -49,18 +49,19 @@
 			</table>
 		</g:if>
 		<g:elseif test="${session?.user?.role == 'client'}">
-			<g:each in="${companyInstanceList}" var="company">
+			<g:each in="${companyInstance}" var="company" status="i">
 				<div class="well well-small">
 					<div class="row">
-						<div class="span1">
+						<div class="span2">
 							<g:if test="${company?.logo}">
-								<img src="${createLink(controller:'company', action='renderLogo', id:company.id)}" alt="${company?.name}" class="img-polaroid">
-							</g:if>
+			             		<img style="width:100%;height:100%;" src="${createLink(action:'renderLogo', id:company.id)}" alt="${company?.name}" class="img-polaroid">
+			        		</g:if>
 							<g:else>
-								<r:img uri="/images/persona.jpg" class="img-polaroid"/>
+							    <r:img uri="/images/persona.jpg" class="img-polaroid"/>
 							</g:else>
+							
 						</div>
-						<div class="span8">
+						<div class="span7">
 							<table>
 								<tbody>
 									<tr>
@@ -95,12 +96,12 @@
 						<div class="span10">
 							<div class="btn-toolbar">
 								<div class="btn-group">
-									<g:link controller="branch" action="list" class="btn"><i class="icon-home"></i></g:link>	
-									<g:link controller="branch" action="list" class="btn"><i class="icon-list"></i></g:link>	
-									<g:link controller="branch" action="list" class="btn"><i class="icon-calendar"></i></g:link>	
+									<g:link controller="branch" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-home"></i></g:link>	
+									<g:link controller="product" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-list"></i></g:link>		
+									<g:link controller="schedule" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-calendar"></i></g:link>	
 								</div>
 								<div class="btn-group">
-									<g:link controller="branch" action="list" class="btn"><i class="icon-shopping-cart"></i></g:link>
+									<g:link controller="deal" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-shopping-cart"></i></g:link>
 								</div>
 							</div>
 						</div>

@@ -25,11 +25,6 @@ modules = {
         resource url:'js/profile.js'
     }
 
-    companiesList {
-        dependsOn 'common'
-        resource url:'css/foundation.min.css'
-    }
-
     list {
         resource url:'js/bootstrap-tooltip.js'
         resource url:'js/bootstrap-popover.js'

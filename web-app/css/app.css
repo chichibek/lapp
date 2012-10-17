@@ -79,7 +79,15 @@ textarea#description {
 }
 
 /* -----------------------------------------
-   Page Name 2
+   companiesList && compnaiesByCategories
 ----------------------------------------- */
 
+ul.bg {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 
+ul.bg li {
+	display: inline-block;
+}

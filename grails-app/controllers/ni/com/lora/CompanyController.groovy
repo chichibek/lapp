@@ -8,6 +8,7 @@ class CompanyController {
     }
 
     def list() {
+        //TODO:fix this problem in user role client when hi/she try to change id it get other user client company
         def userInstance = User.get(params.id)
 
         if(!userInstance || userInstance.role != 'client') {
@@ -16,7 +17,7 @@ class CompanyController {
             return false
         }
 
-    	[companyInstanceList:Company.findAllByUser(userInstance, [sort:'dateCreated',order:'desc']), userInstance:userInstance]
+        [companyInstance:Company.findAllByUser(userInstance, [sort:'dateCreated',order:'desc']), userInstance:userInstance]        
     }
 
     def create() {
@@ -115,6 +116,18 @@ class CompanyController {
     //public   
     def companiesList() {
         [companyInstanceList:Company.list(), companies: new Company(params)]
-    }    
+    }
+
+    //k code
+    def companiesByCategory(){    
+        def companyInstanceList = Company.findAllByCompanyService(params.companyService)
+        if(!companyInstanceList){
+            flash.message= message(code:'ni.com.lora.notfound')
+            redirect(action:"companiesList")
+            return false
+        }else{
+            [companyInstanceList:companyInstanceList, companies: new Company(params)]
+        }
+    } 
 
 }

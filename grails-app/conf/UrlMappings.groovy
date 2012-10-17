@@ -62,6 +62,9 @@ class UrlMappings {
 			}
 		}
 
+		//public image
+		
+
 		"/"(controller:'deal',action:'all')
 		"500"(view:'/error')
 		"404"(view:'/404')
