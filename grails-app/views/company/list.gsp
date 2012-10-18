@@ -50,63 +50,54 @@
 		</g:if>
 		<g:elseif test="${session?.user?.role == 'client'}">
 			<g:each in="${companyInstance}" var="company" status="i">
-				<div class="well well-small">
-					<div class="row">
-						<div class="span2">
-							<g:if test="${company?.logo}">
-			             		<img style="width:100%;height:100%;" src="${createLink(action:'renderLogo', id:company.id)}" alt="${company?.name}" class="img-polaroid">
-			        		</g:if>
-							<g:else>
-							    <r:img uri="/images/persona.jpg" class="img-polaroid"/>
-							</g:else>
-							
-						</div>
-						<div class="span7">
-							<table>
-								<tbody>
-									<tr>
-										<td><strong><g:message code="ni.com.lora.name"/></strong></td>
-										<td>${company?.name}</td>
-									</tr>
-									<tr>
-										<td><strong><g:message code="ni.com.lora.manager"/></strong></td>
-										<td>${company?.manager}</td>
-									</tr>
-									<tr>
-										<td><strong><g:message code="ni.com.lora.companyservice"/></strong></td>
-										<td>${company?.companyService}</td>
-									</tr>
-									<tr>
-										<td><strong><g:message code="ni.com.lora.telephone"/></strong></td>
-										<td>${company?.telephone}</td>
-									</tr>
-									<tr>
-										<td><strong><g:message code="ni.com.lora.email"/></strong></td>
-										<td>${company?.email}</td>
-									</tr>
-									<tr>
-										<td><strong><g:message code="ni.com.lora.datecreated"/></strong></td>
-										<td><g:formatDate date="${company?.dateCreated}" type="datetime" style="MEDIUM"/></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
+				<div class="row">
+					<div class="span2">
+						<g:if test="${company?.logo}">
+		             		<img src="${createLink(action:'renderLogo', id:company.id)}" alt="${company?.name}" class="img-polaroid">
+		        		</g:if>
+						<g:else>
+						    <r:img uri="/images/persona.jpg" class="img-polaroid"/>
+						</g:else>
 					</div>
-					<div class="row">
-						<div class="span10">
-							<div class="btn-toolbar">
-								<div class="btn-group">
-									<g:link controller="branch" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-home"></i></g:link>	
-									<g:link controller="product" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-list"></i></g:link>		
-									<g:link controller="schedule" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-calendar"></i></g:link>	
-								</div>
-								<div class="btn-group">
-									<g:link controller="deal" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-shopping-cart"></i></g:link>
-								</div>
-							</div>
-						</div>
+					<div class="span7">
+						<table class="table">
+							<tbody>
+								<tr>
+									<td><strong><g:message code="ni.com.lora.name"/></strong></td>
+									<td>${company?.name}</td>
+								</tr>
+								<tr>
+									<td><strong><g:message code="ni.com.lora.manager"/></strong></td>
+									<td>${company?.manager}</td>
+								</tr>
+								<tr>
+									<td><strong><g:message code="ni.com.lora.companyservice"/></strong></td>
+									<td>${company?.companyService}</td>
+								</tr>
+								<tr>
+									<td><strong><g:message code="ni.com.lora.telephone"/></strong></td>
+									<td>${company?.telephone}</td>
+								</tr>
+								<tr>
+									<td><strong><g:message code="ni.com.lora.email"/></strong></td>
+									<td>${company?.email}</td>
+								</tr>
+								<tr>
+									<td><strong><g:message code="ni.com.lora.datecreated"/></strong></td>
+									<td><g:formatDate date="${company?.dateCreated}" type="datetime" style="MEDIUM"/></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
+					<div class="row">
+						<div class="span10">
+							<g:link controller="branch" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-home"></i></g:link>	
+							<g:link controller="product" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-list"></i></g:link>		
+							<g:link controller="schedule" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-calendar"></i></g:link>	
+							<g:link controller="deal" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-shopping-cart"></i></g:link>
+						</div>
+					</div>
 			</g:each>
 		</g:elseif>
 	</g:if>
