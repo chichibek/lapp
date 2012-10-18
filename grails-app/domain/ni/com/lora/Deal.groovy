@@ -12,7 +12,7 @@ class Deal {
 	Boolean published = false
 	Boolean state = true
     Boolean closed = false
-	String gender
+	String gender = 'all'
 	String age = 'all'
 	Date dateCreated
 	Date lastUpdated
@@ -25,8 +25,8 @@ class Deal {
     	toDate blank:false
     	claimFrom blank:false
     	claimUp blank:false
-    	gender inList:['male','female','unisex']
-    	age inList:['child','young','adult','young and adult','all'], blank:false
+    	gender inList:['all','male','female']
+    	age inList:['all','child','young','adult','young and adult'], blank:false
     	description blank:false, maxSize:10000
     }
 

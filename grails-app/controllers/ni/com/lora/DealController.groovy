@@ -222,20 +222,24 @@ class DealController {
     def all() {
         def query = Deal.createCriteria()
         def today = new Date()
+        def dealInstanceList
 
-        def result = query {
-            eq('published',true)
-            and{
-                eq('state',true)
-            }
-            and {
-                le('fromDate',today)
-                //ge('toDate',today)
-            }
-            order('dateCreated','desc')
+        if(params.company) {
+            dealInstanceList = Deal.findAllByCompanyAndPublishedAndStateAndFromDateLessThan(Company.findByName(params.company), true, true, today,[sort:'dateCreated', order:'desc'])
+        }else{
+            dealInstanceList = query {
+                eq('published',true)
+                and{
+                    eq('state',true)
+                }
+                and {
+                    le('fromDate',today)
+                }
+                order('dateCreated','desc')
+            } 
         }
 
-        [dealInstanceList:result]
+        [dealInstanceList:dealInstanceList]
     }
 
     def featured() {

@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="layout" content="frontend">
 	<title></title>
-	<r:require modules="common, commonJS"/>
+	<r:require module="common"/>
 </head>
 <body>
 	<div class="btn-group">
@@ -23,12 +23,8 @@
 					<div class="span6">
 						<strong><g:message code="ni.com.lora.dealtext" args="[deal?.product,deal?.price,g.include(action: 'getPercentageSaved', controller: 'product', params:[price:deal?.price, company:deal?.company, product:deal?.product]),deal?.itemsToSale]"/></strong>
 						<br>
-						<strong>${deal?.company}</strong>
-						<br><br>
-						<p>
-							<small>${deal?.description}</small>
-						</p>
-						
+						<g:link action="all" params="[company:deal?.company]">${deal?.company}</g:link>
+						<p><small>${deal?.description}</small></p>
 						<g:link action="featured" id="${deal?.id}" class="btn btn-info"><g:message code="ni.com.lora.buy"/></g:link>
 					</div>
 				</div>
