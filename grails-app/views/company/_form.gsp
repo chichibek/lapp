@@ -13,5 +13,8 @@
 <label for="email"><g:message code="ni.com.lora.email"/></label>
 <g:textField name="email" value="${companyInstance?.email}" class="span4"/>
 
+<label for="url"><g:message code="ni.com.lora.url"/></label>
+<g:textField name="url" value="${companyInstance?.url}" class="span4" placeholder="http://"/>
+
 <label for="companyService"><g:message code="ni.com.lora.companyservice"/></label>
 <g:select name="companyService" from="${companyInstance.constraints.companyService.inList}" value="${companyInstance?.companyService}" valueMessagePrefix="companyInstance?.companyService" noSelection="['': '']"/>

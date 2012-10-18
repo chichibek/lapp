@@ -15,11 +15,11 @@
 				<g:if test="${company?.logo}">
 					<figure>
 						<img src="${createLink(action:'renderLogo', id:company.id)}" alt="${company.name}" class="img-polaroid">
-						<figcaption class="hidden-phone hidden-tablet">${company?.name}</figcaption>
+						<figcaption><g:link url="${company?.url}">${company?.name}</g:link></figcaption>
 					</figure>
 		        	</g:if>        
 					<g:else>
-						${company?.name}
+						<g:link url="${company?.url}">${company?.name}</g:link>
 					</g:else>
 				</li>
 			</g:each>

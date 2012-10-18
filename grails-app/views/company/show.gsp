@@ -44,6 +44,11 @@
 							<th><g:message code='ni.com.lora.email'/></th>
 							<td><g:fieldValue bean="${companyInstance}" field="email"/></td>
 						</tr>
+
+						<tr>
+							<th><g:message code='ni.com.lora.url'/></th>
+							<td><g:fieldValue bean="${companyInstance}" field="url"/></td>
+						</tr>
 					</tbody>
 				</table>
 			</div>

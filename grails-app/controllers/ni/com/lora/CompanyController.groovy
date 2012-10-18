@@ -33,8 +33,6 @@ class CompanyController {
             return false
         }
 
-        println companyInstance.ident()
-
         flash.message = message(code:'ni.com.lora.success')
         redirect(action:'show', params:[id:companyInstance.ident()])
     }
@@ -67,7 +65,7 @@ class CompanyController {
         }
         
         if(params.logo.isEmpty()){
-            companyInstance.properties['name', 'manager', 'telephone', 'companyService', 'email'] = params
+            companyInstance.properties['name', 'manager', 'telephone', 'companyService', 'email', 'url'] = params
         }else{
             if(avatarService.isValid(file)) {
                 companyInstance.properties = params
