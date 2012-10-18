@@ -6,17 +6,21 @@
 	${dealInstance?.itemsToSale} <g:message code="ni.com.lora.productsinstock"/>
 </div>
 
-
+<!-- if this company has subsidiaries then show next information -->
+<g:if test="${dealInstance?.subsidiaries}">
 	<h5><g:message code="ni.com.lora.where"/></h5>
 	<ul>
 		<g:each in="${dealInstance?.subsidiaries}" var="subsidiary">
 			<li>${subsidiary?.name}</li>
 		</g:each>
 	</ul>
+</g:if>
 
-	<h5><g:message code="ni.com.lora.when"/></h5>
-	<g:message code="ni.com.lora.from"/> <g:formatDate date="${dealInstance?.claimFrom}" type="date" style="medium"/> <g:message code="ni.com.lora.to"/> <g:formatDate date="${dealInstance?.claimUp}" type="date" style="medium"/>
+<h5><g:message code="ni.com.lora.when"/></h5>
+<g:message code="ni.com.lora.from"/> <g:formatDate date="${dealInstance?.claimFrom}" type="date" style="medium"/> <g:message code="ni.com.lora.to"/> <g:formatDate date="${dealInstance?.claimUp}" type="date" style="medium"/>
 
+<!-- if this company has schedule then show next information -->
+<g:if test="${dealInstance?.company?.schedules}">
 	<h5><g:message code="ni.com.lora.schedule"/></h5>
 	<table class="table table-condensed table-bordered">
 		<thead>
@@ -38,3 +42,4 @@
 			</g:each>
 		</tbody>
 	</table>
+</g:if>
