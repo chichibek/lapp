@@ -128,7 +128,7 @@ class ProductController {
 
     def getPercentageSaved() {
         def productInstance = Product.findByCompanyAndName(Company.findByName(params.company.toString()),params.product)
-        def result = params.price * 100 / productInstance?.price
+        def result = 100 - (params.price * 100 / productInstance?.price)
 
         render result.round() + '%'
     }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<r:require module="common"/>
+	<r:require modules="common, commonJS"/>
 </head>
 <body>
 	<g:hasErrors bean="${productInstance}">

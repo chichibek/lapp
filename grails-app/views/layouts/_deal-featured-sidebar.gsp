@@ -1,66 +1,23 @@
-<!--
-<table class="table table-condensed table-bordered">
-	<thead>
-		<tr>
-			<th><g:message code="ni.com.lora.daylefttobuy"/></th>
-			<th><g:message code="ni.com.lora.productsinstock"/></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>${dealInstance?.toDate - dealInstance?.fromDate}</td>
-			<td>${dealInstance?.itemsToSale}</td>
-		</tr>
-	</tbody>
-</table>
--->
-<div class="alert alert-info">
+<div class="well well-small">
 	${dealInstance?.toDate - dealInstance?.fromDate} <g:message code="ni.com.lora.daylefttobuy"/> 
-	<br>
+</div>
+
+<div class="well well-small">
 	${dealInstance?.itemsToSale} <g:message code="ni.com.lora.productsinstock"/>
 </div>
 
-<!--
-<legend><g:message code="ni.com.lora.branchandschedules"/></legend>
-<h5><g:message code="ni.com.lora.branch"/></h5>
 
-<ul>
-	<g:each in="${dealInstance?.subsidiaries}" var="subsidiary">
-		<li>${subsidiary?.name}</li>
-	</g:each>
-</ul>
--->
-
-<div class="alert alert-info">
-<h5><g:message code="ni.com.lora.claim"/></h5>
-<ul>
-	<g:each in="${dealInstance?.subsidiaries}" var="subsidiary">
-		<li>${subsidiary?.name}</li>
-	</g:each>
-</ul>
-
-<h5><g:message code="ni.com.lora.from"/></h5>
-
-<table class="table table-condensed table-bordered">
-	<thead>
-		<tr>
-			<th><g:message code="ni.com.lora.from"/></th>
-			<th><g:message code="ni.com.lora.to"/></th>
-		</tr>
-	</thead>
-	<tbody>
-		<g:each in="${dealInstance}">
-			<tr>
-				<td><g:formatDate date="${it?.claimFrom}" type="datetime" style="SHORT"/></td>
-				<td><g:formatDate date="${it?.claimUp}" type="datetime" style="SHORT"/></td>
-			</tr>
+	<h5><g:message code="ni.com.lora.where"/></h5>
+	<ul>
+		<g:each in="${dealInstance?.subsidiaries}" var="subsidiary">
+			<li>${subsidiary?.name}</li>
 		</g:each>
-	</tbody>
-</table>
-</div>
+	</ul>
 
-<div class="alert">
-<h5><g:message code="ni.com.lora.schedule"/></h5>
+	<h5><g:message code="ni.com.lora.when"/></h5>
+	<g:message code="ni.com.lora.from"/> <g:formatDate date="${dealInstance?.claimFrom}" type="date" style="medium"/> <g:message code="ni.com.lora.to"/> <g:formatDate date="${dealInstance?.claimUp}" type="date" style="medium"/>
+
+	<h5><g:message code="ni.com.lora.schedule"/></h5>
 	<table class="table table-condensed table-bordered">
 		<thead>
 			<tr>
@@ -80,5 +37,4 @@
 				</tr>
 			</g:each>
 		</tbody>
-</table>
-</div>
+	</table>
