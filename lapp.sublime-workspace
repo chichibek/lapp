@@ -4,12 +4,24 @@
 		"selected_items":
 		[
 			[
-				"com",
+				"deal",
+				"dealInstance"
+			],
+			[
+				"compan",
 				"company"
 			],
 			[
-				"deal",
-				"dealInstanceList"
+				"find",
+				"findByName"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"com",
+				"company"
 			],
 			[
 				"inl",
@@ -34,10 +46,6 @@
 			[
 				"Use",
 				"UserRole"
-			],
-			[
-				"find",
-				"findByUsername"
 			],
 			[
 				"admin",
@@ -150,10 +158,6 @@
 			[
 				"list",
 				"listClient"
-			],
-			[
-				"compan",
-				"companyInstance"
 			],
 			[
 				"label",
@@ -510,28 +514,32 @@
 			[
 				"ken",
 				"KenFollet"
-			],
-			[
-				"libr",
-				"libraryId"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "grails-app/views/layouts/_deal-featured-sidebar.gsp",
+			"file": "grails-app/controllers/ni/com/lora/DealController.groovy",
 			"settings":
 			{
-				"buffer_size": 1661,
+				"buffer_size": 8272,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "grails-app/views/layouts/frontend.gsp",
+			"file": "grails-app/domain/ni/com/lora/Deal.groovy",
 			"settings":
 			{
-				"buffer_size": 616,
+				"buffer_size": 1096,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "grails-app/views/deal/all.gsp",
+			"settings":
+			{
+				"buffer_size": 1568,
 				"line_ending": "Unix"
 			}
 		}
@@ -539,9 +547,25 @@
 	"build_system": "Packages/LESS-build/LESS.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 159.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
 			[
 				"set",
 				"Set Syntax: HTML"
@@ -603,10 +627,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"inst",
 				"Package Control: Install Package"
 			],
@@ -651,7 +671,7 @@
 				"Show TODOs: Open files only"
 			]
 		],
-		"width": 449.0
+		"width": 602.0
 	},
 	"console":
 	{
@@ -668,6 +688,13 @@
 	},
 	"file_history":
 	[
+		"/home/a123/gapps/lapp/grails-app/jobs/ni/com/lora/LappJob.groovy",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/BuyController.groovy",
+		"/home/a123/gapps/lapp/grails-app/conf/Config.groovy",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/UserController.groovy",
+		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Company.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_deal-featured-sidebar.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/frontend.gsp",
 		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/DealController.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/deal/all.gsp",
 		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Deal.groovy",
@@ -677,10 +704,8 @@
 		"/home/a123/gapps/lapp/grails-app/views/deal/featured.gsp",
 		"/home/a123/gapps/lapp/grails-app/conf/UrlMappings.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/deal/list.gsp",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/BuyController.groovy",
 		"/home/a123/gapps/lapp/web-app/css/app.css",
 		"/home/a123/gapps/lapp/grails-app/i18n/messages.properties",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_deal-featured-sidebar.gsp",
 		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/ProductController.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/product/create.gsp",
 		"/home/a123/gapps/lapp/grails-app/views/product/show.gsp",
@@ -689,7 +714,6 @@
 		"/home/a123/gapps/lapp/web-app/js/deal.js",
 		"/home/a123/gapps/lapp/grails-app/views/company/companiesList.gsp",
 		"/home/a123/gapps/lapp/grails-app/conf/ApplicationResources.groovy",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Company.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/company/_form.gsp",
 		"/home/a123/gapps/lapp/grails-app/views/company/show.gsp",
 		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/CompanyController.groovy",
@@ -708,7 +732,6 @@
 		"/home/a123/gapps/demo/grails-app/domain/org/example/Role.groovy",
 		"/home/a123/gapps/demo/grails-app/domain/org/example/User.groovy",
 		"/home/a123/gapps/demo/grails-app/conf/UrlMappings.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/frontend.gsp",
 		"/home/a123/gapps/copia/grails-app/conf/BootStrap.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/company/companiesByCategory.gsp",
 		"/home/a123/gapps/lapp/grails-app/views/layouts/_companies-category-toolbar.gsp",
@@ -727,14 +750,12 @@
 		"/home/a123/gapps/lapp/grails-app/views/layouts/profile.gsp",
 		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Profile.groovy",
 		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/ProfileController.groovy",
-		"/home/a123/gapps/lapp/grails-app/conf/Config.groovy",
 		"/home/a123/gapps/practices/grails-app/views/student/_form.gsp",
 		"/home/a123/gapps/practices/grails-app/controllers/ni/edu/uccleon/StudentController.groovy",
 		"/home/a123/gapps/lapp/.gitignore",
 		"/home/a123/gapps/copia/grails-app/domain/copia/Item.groovy",
 		"/home/a123/gapps/copia/grails-app/views/layouts/_backend-sidebar.gsp",
 		"/home/a123/gapps/copia/grails-app/domain/copia/Task.groovy",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/UserController.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/layouts/_panel-navbar.gsp",
 		"/home/a123/gapps/lapp/grails-app/views/layouts/user.gsp",
 		"/home/a123/gapps/lapp/.classpath",
@@ -784,7 +805,6 @@
 		"/home/a123/gapps/lapp/grails-app/services/ni/com/lora/UserService.groovy",
 		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/SubsidiaryController.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/user/login.gsp",
-		"/home/a123/gapps/lapp/grails-app/jobs/ni/com/lora/LappJob.groovy",
 		"/home/a123/gapps/lapp/grails-app/services/lapp/SendMailService.groovy",
 		"/home/a123/Desktop/index.html",
 		"/home/a123/gapps/lapp/grails-app/views/deal/listme.gsp",
@@ -815,6 +835,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"closed",
+			"state",
 			"dealInstanceList",
 			"dealIsntanceList",
 			"findAllByCompany",
@@ -940,9 +962,7 @@
 			"personalId",
 			" bean=\"${scheduleInstance}\"",
 			" bean=\"${productInstance}\"",
-			"form",
-			"bean=\"${productInstance}\"",
-			"branchInstance"
+			"form"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -965,50 +985,79 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "grails-app/views/layouts/_deal-featured-sidebar.gsp",
+					"file": "grails-app/controllers/ni/com/lora/DealController.groovy",
 					"settings":
 					{
-						"buffer_size": 1661,
+						"buffer_size": 8272,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								922,
-								922
+								7719,
+								7719
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Groovy/Groovy.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 59.0,
+						"translation.y": 3561.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "grails-app/views/layouts/frontend.gsp",
+					"file": "grails-app/domain/ni/com/lora/Deal.groovy",
 					"settings":
 					{
-						"buffer_size": 616,
+						"buffer_size": 1096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
+								1032,
+								1032
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Groovy/Groovy.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 230.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "grails-app/views/deal/all.gsp",
+					"settings":
+					{
+						"buffer_size": 1568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1375,
+								1375
 							]
 						],
 						"settings":
@@ -1071,16 +1120,28 @@
 		"selected_items":
 		[
 			[
+				"all.gsp",
+				"grails-app/views/deal/all.gsp"
+			],
+			[
+				"buycon",
+				"grails-app/controllers/ni/com/lora/BuyController.groovy"
+			],
+			[
+				"deal",
+				"grails-app/domain/ni/com/lora/Deal.groovy"
+			],
+			[
+				"user",
+				"grails-app/controllers/ni/com/lora/UserController.groovy"
+			],
+			[
 				"front",
 				"grails-app/views/layouts/frontend.gsp"
 			],
 			[
 				"side",
 				"grails-app/views/layouts/_deal-featured-sidebar.gsp"
-			],
-			[
-				"deal",
-				"lapp/grails-app/domain/ni/com/lora/Deal.groovy"
 			],
 			[
 				"dealc",
@@ -1097,10 +1158,6 @@
 			[
 				"deallist",
 				"lapp/grails-app/views/deal/list.gsp"
-			],
-			[
-				"buycon",
-				"lapp/grails-app/controllers/ni/com/lora/BuyController.groovy"
 			],
 			[
 				"productcontroll",
@@ -1181,10 +1238,6 @@
 			[
 				"profile.js",
 				"muerta la lora Grails/web-app/js/profile.js"
-			],
-			[
-				"user",
-				"practices/grails-app/views/layouts/user.gsp"
 			],
 			[
 				"password",
@@ -1577,10 +1630,6 @@
 			[
 				"appc",
 				"feedback/grails-app/controllers/ni/com/myappfeedback/AppController.groovy"
-			],
-			[
-				"feeduser",
-				"feedback/grails-app/domain/ni/com/myappfeedback/User.groovy"
 			]
 		],
 		"width": 0.0

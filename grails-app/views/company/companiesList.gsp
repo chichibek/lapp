@@ -19,7 +19,12 @@
 					</figure>
 		        	</g:if>        
 					<g:else>
-						<g:link url="${company?.url}">${company?.name}</g:link>
+						<figure>
+							<r:img uri="/images/persona.jpg" class="img-polaroid"/>
+						<figcaption>
+							<g:link url="${company?.url}">${company?.name}</g:link>
+						</figcaption>
+						</figure>
 					</g:else>
 				</li>
 			</g:each>

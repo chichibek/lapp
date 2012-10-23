@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="layout" content="frontend">
-	<title></title>
+	<title>muerta la lora</title>
 	<r:require module="common"/>
 </head>
 <body>
@@ -16,7 +16,6 @@
 		<g:if test="${params.disposition == 'list' || !params.disposition}">
 			<g:each in="${dealInstanceList}" var="deal">
 				<div class="row list">
-
 					<div class="span3">
 						<img src="${createLink(controller:'product', action:'renderProductAvatar', params:[product:deal?.product,company:deal?.company])}" class="img-polaroid" alt="${deal}">
 					</div>
@@ -28,7 +27,6 @@
 						<p><small>${deal?.description}</small></p>
 						<g:link action="featured" id="${deal?.id}" class="btn btn-info"><g:message code="ni.com.lora.buy"/></g:link>
 					</div>
-					
 				</div>
 			</g:each>
 		</g:if>
