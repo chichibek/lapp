@@ -90,14 +90,15 @@
 						</table>
 					</div>
 				</div>
-					<div class="row">
-						<div class="span10">
-							<g:link controller="branch" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-home"></i></g:link>	
-							<g:link controller="product" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-list"></i></g:link>		
-							<g:link controller="schedule" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-calendar"></i></g:link>	
-							<g:link controller="deal" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-shopping-cart"></i></g:link>
-						</div>
+				<div class="row">
+					<div class="span10">
+						<g:link controller="branch" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-home"></i></g:link>	
+						<g:link controller="product" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-list"></i></g:link>		
+						<g:link controller="schedule" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-calendar"></i></g:link>	
+						<g:link controller="deal" action="list" params="[id:"${company.id}"]" class="btn"><i class="icon-shopping-cart"></i></g:link>
 					</div>
+				</div>
+				<br>
 			</g:each>
 		</g:elseif>
 	</g:if>
