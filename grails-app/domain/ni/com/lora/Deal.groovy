@@ -35,11 +35,13 @@ class Deal {
     }
 
     def daysToBuy() {
-        toDate - fromDate
+        def today = new Date()
+        toDate - today
     }
 
     def daysToClaim() {
-        claimUp - claimFrom
+        def today = new Date()
+        claimUp - today
     }
 
     static mapping = {
