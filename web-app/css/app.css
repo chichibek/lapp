@@ -43,10 +43,6 @@ div.well .img-polaroid {
 	background: #FFF;
 }
 
-td.center{
-	text-align: center;
-}
-
 textarea#description {
 	width: 100%;
 	max-width: 100%;
