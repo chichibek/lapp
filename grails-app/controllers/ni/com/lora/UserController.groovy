@@ -40,7 +40,7 @@ class UserController {
     	session.user = userInstance
         switch(session?.user?.role) {
             case 'admin':
-                redirect(action:'list')    
+                redirect(controller:'deal', action:'activeDeals')    
                 break
             case 'client':
                 redirect(controller:'company', action:'list', params:[id:userInstance?.id])
