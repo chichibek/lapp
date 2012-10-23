@@ -26,9 +26,10 @@
 					<th><i class="icon-wrench"></i></th>
 					<th><i class="icon-trash"></i></th>
 					<th><g:message code='ni.com.lora.username'/></th>
+					<th><g:message code='ni.com.lora.fullname'/></th>
 					<th><g:message code='ni.com.lora.email'/></th>
-					<th><g:message code='ni.com.lora.identitycard'/></th>
-					<th><g:message code='ni.com.lora.role'/></th>
+					<!--<th><g:message code='ni.com.lora.identitycard'/></th>-->
+					<!--<th><g:message code='ni.com.lora.role'/></th>-->
 					<th><g:message code='ni.com.lora.isenabled'/></th>
 				</tr>
 			</thead>
@@ -44,9 +45,10 @@
 						</g:link>
 					</td>	
 					<td><g:fieldValue bean="${it}" field="userName"/></td>
+					<td>${it?.profile?.fullName}</td>
 					<td><g:fieldValue bean="${it}" field="email"/></td>
-					<td><g:fieldValue bean="${it}" field="identityCard"/></td>
-					<td>${it?.role?.capitalize()?.encodeAsHTML()}</td>
+					<!--<td><g:fieldValue bean="${it}" field="identityCard"/></td>-->
+					<!--<td>${it?.role?.capitalize()}</td>-->
 					<td><g:link action="changeEnabledState" params="[id:it.id, role:params.role]" class="btn btn-mini"><lapp:isEnabled state="${it.enabled}"/></g:link></td>
 				</tr>
 			    </g:each>
