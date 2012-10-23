@@ -34,6 +34,14 @@ class Deal {
     	product
     }
 
+    def daysToBuy() {
+        toDate - fromDate
+    }
+
+    def daysToClaim() {
+        claimUp - claimFrom
+    }
+
     static mapping = {
         subsidiaries sort:'dateCreated'
     }

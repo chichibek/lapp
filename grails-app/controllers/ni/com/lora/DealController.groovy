@@ -224,6 +224,10 @@ class DealController {
         [dealInstanceList:dealInstanceList]
     }
 
+    def activeDeals() {
+        [dealInstanceList: Deal.all.list(), dealInstanceTotal:Deal.all.count()]
+    }
+
     def featured() {
         def dealInstance = Deal.get(params.id)
 

@@ -1,6 +1,7 @@
 <lapp:isAdmin>
 <ul class="nav nav-tabs nav-stacked">
 	<li><g:link controller="user" action="list" params="[role:'client']"><g:message code="ni.com.lora.client"/></g:link></li>
+	<li><g:link controller="deal" action="activeDeals"><g:message code="ni.com.lora.activedeals"/></g:link></li>
 </ul>
 </lapp:isAdmin>
 
