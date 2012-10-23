@@ -5,43 +5,167 @@
 		[
 			[
 				"com",
-				"companyInstance"
+				"company"
+			],
+			[
+				"deal",
+				"dealInstanceList"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"pl",
+				"plugins"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"spr",
+				"springSecurityService"
+			],
+			[
+				"user",
+				"userRole"
+			],
+			[
+				"Use",
+				"UserRole"
+			],
+			[
+				"find",
+				"findByUsername"
+			],
+			[
+				"admin",
+				"adminUser"
+			],
+			[
+				"admi",
+				"adminUser"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"comm",
+				"common"
+			],
+			[
+				"de",
+				"dependsOn"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"fieldValue",
+				"fieldValue	fieldValue"
+			],
+			[
+				"sa",
+				"salio"
+			],
+			[
+				"Ite",
+				"Item"
+			],
+			[
+				"comp",
+				"company"
+			],
+			[
+				"ad",
+				"admin"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"st",
+				"findAllByState"
+			],
+			[
+				"uer",
+				"userInstance"
+			],
+			[
+				"deals",
+				"dealsCollection"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"fin",
+				"findByUserName"
+			],
+			[
+				"usr",
+				"username"
+			],
+			[
+				"dea",
+				"dealInstanceList"
+			],
+			[
+				"Find",
+				"findAllByDeal"
+			],
+			[
+				"bra",
+				"branchInstance"
+			],
+			[
+				"usert",
+				"userInstance"
+			],
+			[
+				"date",
+				"dateCreated"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"list",
+				"listClient"
 			],
 			[
 				"compan",
 				"companyInstance"
 			],
 			[
-				"user",
-				"user2"
-			],
-			[
-				"mar",
-				"mark"
-			],
-			[
 				"label",
 				"label-info"
-			],
-			[
-				"dea",
-				"deal"
 			],
 			[
 				"pr",
 				"println"
 			],
 			[
-				"deal",
-				"deal"
-			],
-			[
 				"buy",
 				"buyInstanceList"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"not",
@@ -54,10 +178,6 @@
 			[
 				"pri",
 				"price"
-			],
-			[
-				"find",
-				"findByName"
 			],
 			[
 				"findBy",
@@ -132,10 +252,6 @@
 				"dealInstance"
 			],
 			[
-				"de",
-				"dealInstance"
-			],
-			[
 				"cla",
 				"claimUp"
 			],
@@ -166,14 +282,6 @@
 			[
 				"con",
 				"controller"
-			],
-			[
-				"co",
-				"company"
-			],
-			[
-				"comp",
-				"company"
 			],
 			[
 				"Comp",
@@ -248,24 +356,8 @@
 				"font-size"
 			],
 			[
-				"in",
-				"inList"
-			],
-			[
-				"admin",
-				"adminProfile"
-			],
-			[
 				"USER",
 				"userInstance"
-			],
-			[
-				"admi",
-				"adminProfile"
-			],
-			[
-				"ad",
-				"addProfile"
 			],
 			[
 				"req",
@@ -282,10 +374,6 @@
 			[
 				"send",
 				"sendMail"
-			],
-			[
-				"fieldValue",
-				"fieldValue	gspFieldValue"
 			],
 			[
 				"da",
@@ -310,10 +398,6 @@
 			[
 				"Da",
 				"dateCreated"
-			],
-			[
-				"date",
-				"date2"
 			],
 			[
 				"compl",
@@ -396,10 +480,6 @@
 				"itemInstance"
 			],
 			[
-				"fin",
-				"findAll"
-			],
-			[
 				"ite",
 				"itemInstance"
 			],
@@ -428,118 +508,30 @@
 				"fields"
 			],
 			[
-				"st",
-				"static"
-			],
-			[
 				"ken",
 				"KenFollet"
 			],
 			[
 				"libr",
 				"libraryId"
-			],
-			[
-				"libra",
-				"libraryInstance"
-			],
-			[
-				"lib",
-				"libraryInstance"
-			],
-			[
-				"aut",
-				"authorInstance"
-			],
-			[
-				"edit",
-				"editorialInstanceTotal"
-			],
-			[
-				"insta",
-				"instanceId"
-			],
-			[
-				"try",
-				"try	try … catch"
-			],
-			[
-				"edot",
-				"editorialInstance"
-			],
-			[
-				"editori",
-				"editorialInstance"
-			],
-			[
-				"ed",
-				"editorialInstance"
-			],
-			[
-				"editorial",
-				"editorialInstanceList"
-			],
-			[
-				"edi",
-				"editorialInstanceList"
-			],
-			[
-				"libraryI",
-				"libraryId"
-			],
-			[
-				"library",
-				"libraryInstance"
-			],
-			[
-				"li",
-				"library"
-			],
-			[
-				"lo",
-				"logoContentType"
-			],
-			[
-				"avata",
-				"avatarContentType"
-			],
-			[
-				"red",
-				"redirect"
-			],
-			[
-				"max",
-				"max-height"
-			],
-			[
-				"margin-",
-				"margin-top"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "grails-app/controllers/ni/com/lora/BranchController.groovy",
+			"file": "grails-app/views/layouts/_deal-featured-sidebar.gsp",
 			"settings":
 			{
-				"buffer_size": 2857,
+				"buffer_size": 1661,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "grails-app/views/branch/show.gsp",
+			"file": "grails-app/views/layouts/frontend.gsp",
 			"settings":
 			{
-				"buffer_size": 2156,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "grails-app/views/company/list.gsp",
-			"settings":
-			{
-				"buffer_size": 2095,
+				"buffer_size": 616,
 				"line_ending": "Unix"
 			}
 		}
@@ -547,9 +539,17 @@
 	"build_system": "Packages/LESS-build/LESS.sublime-build",
 	"command_palette":
 	{
-		"height": 264.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"packe",
+				"Package Control: Upgrade Package"
+			],
 			[
 				"save",
 				"Project: Save As"
@@ -557,6 +557,34 @@
 			[
 				"add",
 				"Project: Add Folder"
+			],
+			[
+				"boostranav",
+				"Snippet: Bootstrap tabbable navigation tabs"
+			],
+			[
+				"bootsnab",
+				"Snippet: Bootstrap navigation bar"
+			],
+			[
+				"boot",
+				"Snippet: Bootstrap fluid layout"
+			],
+			[
+				"boottable",
+				"Snippet: Bootstrap tabbable navigation tabs on the right"
+			],
+			[
+				"boots",
+				"Snippet: Bootstrap toolbar"
+			],
+			[
+				"boo",
+				"Snippet: Bootstrap pagination"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"list",
@@ -567,11 +595,19 @@
 				"Show TODOs: Open files only"
 			],
 			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
 				"remove",
 				"Package Control: Remove Package"
 			],
 			[
-				"install",
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -591,16 +627,8 @@
 				"Fetch: Manage remote files"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"Snippet: link",
 				"Snippet: link"
-			],
-			[
-				"packe",
-				"Package Control: List Packages"
 			],
 			[
 				"ista",
@@ -623,7 +651,7 @@
 				"Show TODOs: Open files only"
 			]
 		],
-		"width": 629.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -640,134 +668,134 @@
 	},
 	"file_history":
 	[
-		"/home/a123/gapps/lapp/grails-app/conf/BootStrap.groovy",
-		"/home/a123/gapps/lapp/grails-app/conf/lapp/SecuityFilters.groovy",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/User.groovy",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Company.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/company/list.gsp",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/CompanyController.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/company/show.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/user/listClient.gsp",
-		"/home/a123/gapps/lapp/grails-app/conf/BootStrap.groovy.bak",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Profile.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/user/login.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/company/_form.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/company/edit.gsp",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/UserController.groovy",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/BranchController.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/branch/list.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/branch/show.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/user/_form.gsp",
-		"/home/a123/gapps/lapp/grails-app/i18n/messages.properties",
-		"/home/a123/gapps/lapp/grails-app/conf/UrlMappings.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/profile.gsp",
-		"/home/a123/gapps/lapp/lapp.sublime-project",
-		"/home/a123/gapps/lapp/grails-app/views/product/list.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_frontend-sidebar.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/buy.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/buy/list.gsp",
-		"/home/a123/gapps/lapp/grails-app/taglib/lapp/MyAppTagLib.groovy",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Deal.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/deal/list.gsp",
 		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/DealController.groovy",
-		"/home/a123/gapps/lapp/lapp.sublime-workspace",
-		"/home/a123/gapps/lapp/grails-app/conf/ApplicationResources.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/user/login.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_public-navbar.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/deal/_deal-information.gsp",
-		"/home/a123/gapps/myFeedback/grails-app/controllers/ni/com/myappfeedback/UserController.groovy",
-		"/home/a123/gapps/myFeedback/grails-app/domain/ni/com/myappfeedback/Profile.groovy",
-		"/home/a123/gapps/myFeedback/grails-app/domain/ni/com/myappfeedback/User.groovy",
-		"/home/a123/gapps/myFeedback/grails-app/views/user/login.gsp",
-		"/home/a123/gapps/myFeedback/application.properties",
-		"/home/a123/gapps/lapp/grails-app/conf/spring/resources.groovy",
-		"/home/a123/gapps/practices/grails-app/views/contact.gsp",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/BuyController.groovy",
-		"/home/a123/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/a123/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/a123/gapps/lapp/grails-app/views/buy/buysByDeal.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_backend-toolbar.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/deal/detail.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/deal/featured.gsp",
 		"/home/a123/gapps/lapp/grails-app/views/deal/all.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/frontend.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/deal.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_deal-featured-sidebar.gsp",
-		"/home/a123/gapps/practices/application.properties",
-		"/home/a123/gapps/practices/grails-app/conf/Config.groovy",
-		"/home/a123/gapps/practices/grails-app/conf/BuildConfig.groovy",
-		"/home/a123/gapps/practices/target/practices-0.1.war",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_panel-navbar.gsp",
-		"/home/a123/gapps/lapp/grails-app/services/ni/com/lora/DealService.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/deal/_form.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/user/_login-navbar.gsp",
+		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Deal.groovy",
+		"/home/a123/gapps/lapp/lapp.sublime-project",
+		"/home/a123/gapps/lapp/grails-app/conf/lapp/SecuityFilters.groovy",
+		"/home/a123/gapps/lapp/target/docs/gapi/ni/com/lora/DealController.html",
+		"/home/a123/gapps/lapp/grails-app/views/deal/featured.gsp",
+		"/home/a123/gapps/lapp/grails-app/conf/UrlMappings.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/deal/list.gsp",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/BuyController.groovy",
 		"/home/a123/gapps/lapp/web-app/css/app.css",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/panel.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/howitswork.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/promise.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/faq.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_user-toolbar.gsp",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Buy.groovy",
-		"/home/a123/gapps/lapp/web-app/css/bootstrap.css",
+		"/home/a123/gapps/lapp/grails-app/i18n/messages.properties",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_deal-featured-sidebar.gsp",
 		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/ProductController.groovy",
-		"/home/a123/.config/sublime-text-2/Packages/User/table.sublime-snippet",
-		"/home/a123/gapps/lapp/grails-app/views/deal/create.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/deal/notification.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/buy/show.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/deal/show.gsp",
-		"/home/a123/gapps/lapp/grails-app/services/ni/com/lora/UserService.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/profile/profile.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_settings-sidebar.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/_panel-sidebar.gsp",
-		"/home/a123/gapps/pYp/grails-app/domain/pyp/User.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/buy/lista.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/list.gsp",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/PanelController.groovy",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Branch.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/product/detail.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/product/show.gsp",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Product.groovy",
 		"/home/a123/gapps/lapp/grails-app/views/product/create.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/product/_form.gsp",
-		"/home/a123/gapps/pYp/project.sublime-project",
-		"/home/a123/gapps/pYp/grails-app/conf/Config.groovy",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Schedule.groovy",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/SubsidiaryController.groovy",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/ScheduleController.groovy",
-		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/ProfileController.groovy",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/fronend.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/company/create.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/panel/main.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/user.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/product/show.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/deal/_show-product.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/deal/_deal-information.gsp",
+		"/home/a123/gapps/lapp/web-app/js/deal.js",
+		"/home/a123/gapps/lapp/grails-app/views/company/companiesList.gsp",
+		"/home/a123/gapps/lapp/grails-app/conf/ApplicationResources.groovy",
+		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Company.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/company/_form.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/company/show.gsp",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/CompanyController.groovy",
+		"/home/a123/gapps/lapp/grails-app/conf/BootStrap.groovy",
 		"/home/a123/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/a123/rapps/kuko/pry.sublime-project",
-		"/home/a123/rapps/issues/db/migrate/20120922205000_create_issues.rb",
-		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Subsidiary.groovy",
-		"/home/a123/rapps/issues/app/views/hello/world.html.erb",
-		"/home/a123/rapps/issues/db/development.sqlite3",
-		"/home/a123/rapps/issues/.gitignore",
-		"/home/a123/rapps/issues/log/development.log",
-		"/home/a123/rapps/issues/doc/README_FOR_APP",
-		"/home/a123/rapps/issues/config/environment.rb",
-		"/home/a123/rapps/issues/config/database.yml",
-		"/home/a123/rapps/issues/config/environments/development.rb",
-		"/home/a123/rapps/issues/app/controllers/hello_controller.rb",
-		"/home/a123/rapps/issues/db/seeds.rb",
-		"/home/a123/rapps/issues/config/routes.rb",
-		"/home/a123/rapps/issues/issues.sublime-project",
-		"/home/a123/gapps/lapp/.project",
+		"/home/a123/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/a123/gapps/demo/application.properties",
+		"/home/a123/gapps/demo/grails-app/conf/DataSource.groovy",
+		"/home/a123/gapps/demo/grails-app/conf/Config.groovy",
+		"/home/a123/gapps/demo/grails-app/conf/BuildConfig.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/company/list.gsp",
+		"/home/a123/gapps/demo/grails-app/domain/org/example/UserRole.groovy",
+		"/home/a123/gapps/demo/grails-app/conf/BootStrap.groovy",
+		"/home/a123/gapps/demo/grails-app/views/home/impublic.gsp",
+		"/home/a123/gapps/demo/grails-app/controllers/demo/HomeController.groovy",
+		"/home/a123/gapps/demo/grails-app/domain/org/example/Role.groovy",
+		"/home/a123/gapps/demo/grails-app/domain/org/example/User.groovy",
+		"/home/a123/gapps/demo/grails-app/conf/UrlMappings.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/frontend.gsp",
+		"/home/a123/gapps/copia/grails-app/conf/BootStrap.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/company/companiesByCategory.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_companies-category-toolbar.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/deal/_form.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/deal/create.gsp",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/ScheduleController.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/product/list.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/schedule.gsp",
+		"/home/a123/gapps/lapp/web-app/css/jquery-ui-1.9.0.custom.min.css",
+		"/home/a123/gapps/lapp/grails-app/views/profile/profile.gsp",
+		"/home/a123/gapps/lapp/web-app/js/profile.js",
+		"/home/a123/gapps/lapp/grails-app/views/user/account.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/user/password.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_settings-sidebar.gsp",
+		"/home/a123/gapps/practices/grails-app/views/layouts/user.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/profile.gsp",
+		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Profile.groovy",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/ProfileController.groovy",
+		"/home/a123/gapps/lapp/grails-app/conf/Config.groovy",
+		"/home/a123/gapps/practices/grails-app/views/student/_form.gsp",
+		"/home/a123/gapps/practices/grails-app/controllers/ni/edu/uccleon/StudentController.groovy",
+		"/home/a123/gapps/lapp/.gitignore",
+		"/home/a123/gapps/copia/grails-app/domain/copia/Item.groovy",
+		"/home/a123/gapps/copia/grails-app/views/layouts/_backend-sidebar.gsp",
+		"/home/a123/gapps/copia/grails-app/domain/copia/Task.groovy",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/UserController.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_panel-navbar.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/user.gsp",
+		"/home/a123/gapps/lapp/.classpath",
 		"/home/a123/gapps/lapp/application.properties",
-		"/home/a123/gapps/lapp/grails-app/i18n/messages_es.properties",
-		"/home/a123/Desktop/testing/untitled.sublime-project",
-		"/home/a123/gapps/lapp/grails-app/views/schedule/_form.gsp",
-		"/home/a123/gapps/lapp/web-app/js/sisyphus.js",
-		"/home/a123/.config/sublime-text-2/Packages/User/Fetch.sublime-settings",
-		"/home/a123/gapps/lapp/grails-app/views/branch/create.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/product.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/branch/_form.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/schedule/create.gsp",
-		"/home/a123/gapps/lapp/grails-app/views/layouts/branch.gsp",
-		"/home/a123/gapps/testing/target/stacktrace.log"
+		"/home/a123/gapps/lapp/caldecott.log",
+		"/home/a123/gapps/lapp/grails-app/views/user/showClient.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/user/_form.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/user/edit.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/user/create.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/user/list.gsp",
+		"/home/a123/gapps/lapp/target/classes/gsp_lapp_usercreate_gsp_html.data",
+		"/home/a123/gapps/copia/grails-app/views/item/_form.gsp",
+		"/home/a123/gapps/copia/grails-app/views/item/edit.gsp",
+		"/home/a123/gapps/copia/grails-app/views/item/create.gsp",
+		"/home/a123/gapps/copia/grails-app/views/item/list.gsp",
+		"/home/a123/gapps/copia/grails-app/controllers/copia/ItemController.groovy",
+		"/home/a123/gapps/copia/grails-app/views/layouts/item.gsp",
+		"/home/a123/gapps/copia/grails-app/conf/ApplicationResources.groovy",
+		"/home/a123/gapps/copia/web-app/css/app.css",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/BranchController.groovy",
+		"/home/a123/gapps/copia/grails-app/conf/Config.groovy",
+		"/home/a123/gapps/copia/grails-app/conf/DataSource.groovy",
+		"/home/a123/gapps/copia/grails-app/conf/BuildConfig.groovy",
+		"/home/a123/gapps/copia/web-app/css/bootstrap.css",
+		"/home/a123/gapps/lapp/web-app/js/bootstrap-dropdown.js",
+		"/home/a123/gapps/lapp/web-app/js/tooltip.js",
+		"/home/a123/gapps/lapp/grails-app/views/branch/list.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/company/create.gsp",
+		"/home/a123/gapps/lapp/grails-app/conf/BuildConfig.groovy",
+		"/home/a123/gapps/lapp/grails-app/conf/DataSource.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_panel-sidebar.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/404.gsp",
+		"/home/a123/gapps/practices/grails-app/conf/practices/SecurityFilters.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/schedule/list.gsp",
+		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/User.groovy",
+		"/home/a123/gapps/feedback/grails-app/domain/ni/com/myappfeedback/Profile.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/404.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/deal/listClosedDeals.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_frontend-sidebar.gsp",
+		"/home/a123/gapps/lapp/grails-app/conf/BootStrap.groovy.back",
+		"/home/a123/gapps/lapp/grails-app/views/deal/detail.gsp",
+		"/home/a123/gapps/lapp/grails-app/taglib/lapp/MyAppTagLib.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/_backend-toolbar.gsp",
+		"/home/a123/gapps/lapp/grails-app/views/layouts/deal.gsp",
+		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Buy.groovy",
+		"/home/a123/gapps/lapp/grails-app/conf/QuartzConfig.groovy",
+		"/home/a123/gapps/lapp/grails-app/services/ni/com/lora/UserService.groovy",
+		"/home/a123/gapps/lapp/grails-app/controllers/ni/com/lora/SubsidiaryController.groovy",
+		"/home/a123/gapps/lapp/grails-app/views/user/login.gsp",
+		"/home/a123/gapps/lapp/grails-app/jobs/ni/com/lora/LappJob.groovy",
+		"/home/a123/gapps/lapp/grails-app/services/lapp/SendMailService.groovy",
+		"/home/a123/Desktop/index.html",
+		"/home/a123/gapps/lapp/grails-app/views/deal/listme.gsp",
+		"/home/a123/gapps/lapp/grails-app/domain/ni/com/lora/Product.groovy",
+		"/home/a123/Desktop/foxdrib.jpg",
+		"/home/a123/Desktop/DSCF2157.jpg",
+		"/home/a123/Desktop/601483_4544629258940_1295807823_n.jpg",
+		"/home/a123/Desktop/screen_shot_2011-04-23_at_2.28.51_am.png",
+		"/home/a123/Desktop/screen_shot_2011-04-14_at_1.05.25_am.png",
+		"/home/a123/Desktop/preview.png",
+		"/home/a123/Desktop/Lukas-Podolski-Arsenal-Goal.jpg"
 	],
 	"find":
 	{
@@ -787,134 +815,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"${it.id}",
-			"id=",
-			"id",
-			"isVal",
-			",",
-			"\n<",
-			"shoes",
-			"ni.com.lora.Company",
-			"new ni.com.lora.Company",
-			"personalId",
-			"persnalId",
-			"address",
-			"persnalId",
-			"user",
-			"User",
-			"user",
-			"USER",
-			"user",
-			"User",
-			"personalId",
-			"address",
-			"identitycard",
-			"identityCard",
-			"identitycard",
-			"identityCard",
-			"identitycard",
-			"identityCard",
-			"address",
-			"password",
-			"icon-plus",
-			"plus",
-			"message",
-			"th",
-			"all",
-			"ctrl+d",
-			"message",
-			"10",
-			"detail",
-			"5",
-			"strong",
-			"subsidiarie",
-			"branch",
-			"appName",
-			"appender",
-			"myModal",
-			"ul",
-			"Published",
-			"it?",
-			"it",
-			"claimup",
-			"fromdate",
-			"from",
-			"print",
-			"${dealInstance?.buys.size()}",
-			"promise",
-			"ni.com.lora.deal",
-			"faq",
-			"body",
-			"deal",
-			"eal",
-			"deal",
-			"all",
-			"e",
-			"nothing",
-			"button",
-			"<td><g:message code=\"ni.com.lora.daylefttobuy\"/></td>",
-			"it",
-			"span",
-			"alert",
-			"paid",
-			"deal?",
-			"\">",
-			"<g:message code=\"ni.com.lora.main\"/>",
-			"account",
-			"quantity",
-			"<r:layoutResources/>",
-			"legend",
-			"<hr>",
-			"</div>",
+			"dealInstanceList",
+			"dealIsntanceList",
+			"findAllByCompany",
+			"result",
+			"companyInstance",
+			" table-bordered",
+			"SHORT",
+			"time",
+			"claim",
 			"render",
-			"formatDate",
-			"MEDIUM",
-			"<td></td>",
-			"table-bordered",
-			"result",
-			"hour",
-			"day",
-			"fromho",
-			"Schedule",
-			"schedule",
-			"it",
-			"2",
-			" ullamco laboris nisi ut aliquip ex ea commodo\n					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-			"result",
-			"h4",
-			" controller=\"\" action=\"\"",
-			"href=\"#\"",
-			"a",
-			"mark",
-			"log",
-			"delete",
-			"logo",
-			"Found",
-			"ubuntuNicaragua",
-			"ubuntuLeon",
-			"ubuntuNicaragua",
-			"subsidiaryInstance",
-			"save",
-			"subsidiaries",
-			"company",
-			"<!--",
-			"for",
-			"date=\"$",
-			"MEDIUM",
-			"style=\"medium\"",
-			"date=\"$",
-			"Date=",
-			"date=",
-			"Date=",
-			"date=",
-			"Date=",
-			"date=",
-			"Date",
-			"date",
-			"items",
+			"bg",
+			"url",
+			"email",
+			"block-grid",
+			"ui-icon",
+			"ui-icon ui-icon-circle-triangle-e",
 			"fromDate",
-			"from",
-			"fromDate"
+			"uploadForm",
+			"u",
+			"user",
+			"username",
+			"adminclient",
+			"<td>",
+			"td",
+			"item",
+			"price:",
+			"mem",
+			"name",
+			"Guardar",
+			"save",
+			"pencil",
+			"edit",
+			"Exception",
+			"Algo salio mal",
+			"Folleto",
+			"folleto",
+			"img",
+			"params=\"[id:companyInstance.id, user:\"${user}\"]\"",
+			"action=\"list\"",
+			"admin",
+			"Juan Perez",
+			"adminProfile",
+			"juanperez@gmail.com",
+			"img",
+			"login",
+			"user",
+			"findAllByUser",
+			"create",
+			"companyInstance",
+			"logo",
+			"p",
+			"kkk",
+			"strong",
+			"250",
+			"taparteria",
+			"imperial",
+			"mark",
+			"companies",
+			"Person",
+			"query",
+			"<tr>",
+			"category",
+			"categ",
+			"email",
+			"name",
+			"companyService",
+			"name",
+			"state",
+			"print",
+			"onlyAdmin",
+			"delete",
+			"renderLogo",
+			"getPercentageSaved",
+			"return false",
+			"email",
+			"company",
+			"n",
+			"		<",
+			"mark",
+			"margin",
+			"n",
+			"2.5",
+			"5",
+			"1.05",
+			"rotate(6deg)",
+			"<li></li>",
+			"1.1",
+			"1",
+			"1.2",
+			"rotate(6deg)",
+			"2",
+			"6deg",
+			"rotate",
+			"3",
+			"180",
+			"5",
+			"1",
+			".4",
+			"rorate",
+			"90",
+			"background",
+			"<h3>",
+			"nothingtoshow",
+			"ni.com.lora.nonthigtoshow",
+			"username",
+			"buy",
+			"listNewBuys",
+			"public",
+			"stack",
+			"notFound",
+			"userName",
+			"username",
+			"address",
+			"beforeInterceptor",
+			"ni.com.lora.require",
+			"\"span4\"/>",
+			"fullName",
+			"'user'",
+			"action=\"list\"",
+			"notfound",
+			"enabled",
+			"buy",
+			"personalId",
+			" bean=\"${scheduleInstance}\"",
+			" bean=\"${productInstance}\"",
+			"form",
+			"bean=\"${productInstance}\"",
+			"branchInstance"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -937,51 +965,50 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "grails-app/controllers/ni/com/lora/BranchController.groovy",
+					"file": "grails-app/views/layouts/_deal-featured-sidebar.gsp",
 					"settings":
 					{
-						"buffer_size": 2857,
+						"buffer_size": 1661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1258,
-								1258
+								922,
+								922
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Groovy/Groovy.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 110.0,
+						"translation.y": 59.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "grails-app/views/branch/show.gsp",
+					"file": "grails-app/views/layouts/frontend.gsp",
 					"settings":
 					{
-						"buffer_size": 2156,
+						"buffer_size": 616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								441,
-								441
+								376,
+								376
 							]
 						],
 						"settings":
@@ -991,34 +1018,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "grails-app/views/company/list.gsp",
-					"settings":
-					{
-						"buffer_size": 2095,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1521,
-								1521
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 281.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1072,516 +1071,516 @@
 		"selected_items":
 		[
 			[
-				"companylist",
-				"grails-app/views/company/list.gsp"
+				"front",
+				"grails-app/views/layouts/frontend.gsp"
 			],
 			[
-				"view/show",
-				"grails-app/views/branch/show.gsp"
-			],
-			[
-				"branch",
-				"grails-app/controllers/ni/com/lora/BranchController.groovy"
-			],
-			[
-				"companycon",
-				"grails-app/controllers/ni/com/lora/CompanyController.groovy"
-			],
-			[
-				"listclient",
-				"grails-app/views/user/listClient.gsp"
-			],
-			[
-				"company",
-				"grails-app/domain/ni/com/lora/Company.groovy"
-			],
-			[
-				"user",
-				"grails-app/domain/ni/com/lora/User.groovy"
-			],
-			[
-				"view/bra",
-				"grails-app/views/branch/show.gsp"
-			],
-			[
-				"branchcontr",
-				"grails-app/controllers/ni/com/lora/BranchController.groovy"
-			],
-			[
-				"userform",
-				"grails-app/views/user/_form.gsp"
-			],
-			[
-				"usercontr",
-				"grails-app/controllers/ni/com/lora/UserController.groovy"
-			],
-			[
-				"login",
-				"grails-app/views/user/login.gsp"
-			],
-			[
-				"profile",
-				"grails-app/domain/ni/com/lora/Profile.groovy"
-			],
-			[
-				"prof",
-				"grails-app/views/layouts/profile.gsp"
-			],
-			[
-				"productlist",
-				"grails-app/views/product/list.gsp"
-			],
-			[
-				"compalist",
-				"grails-app/views/company/list.gsp"
+				"side",
+				"grails-app/views/layouts/_deal-featured-sidebar.gsp"
 			],
 			[
 				"deal",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/DealController.groovy"
+				"lapp/grails-app/domain/ni/com/lora/Deal.groovy"
 			],
 			[
-				"front",
-				"muerta la lora GRAILS app/grails-app/views/layouts/_frontend-sidebar.gsp"
-			],
-			[
-				"layoubuy",
-				"muerta la lora GRAILS app/grails-app/views/layouts/buy.gsp"
-			],
-			[
-				"buylist",
-				"muerta la lora GRAILS app/grails-app/views/buy/list.gsp"
-			],
-			[
-				"deal.groo",
-				"muerta la lora GRAILS app/grails-app/domain/ni/com/lora/Deal.groovy"
-			],
-			[
-				"deallist",
-				"muerta la lora GRAILS app/grails-app/views/deal/list.gsp"
-			],
-			[
-				"appresource",
-				"muerta la lora GRAILS app/grails-app/conf/ApplicationResources.groovy"
-			],
-			[
-				"feeduser",
-				"myFeedback/grails-app/controllers/ni/com/myappfeedback/UserController.groovy"
-			],
-			[
-				"controllerbuy",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/BuyController.groovy"
-			],
-			[
-				"deallits",
-				"muerta la lora GRAILS app/grails-app/views/deal/list.gsp"
-			],
-			[
-				"buyby",
-				"muerta la lora GRAILS app/grails-app/views/buy/buysByDeal.gsp"
-			],
-			[
-				"layoutdeal",
-				"muerta la lora GRAILS app/grails-app/views/layouts/deal.gsp"
-			],
-			[
-				"dealall",
-				"muerta la lora GRAILS app/grails-app/views/deal/all.gsp"
-			],
-			[
-				"comp",
-				"muerta la lora GRAILS app/grails-app/domain/ni/com/lora/Company.groovy"
-			],
-			[
-				"buyc",
-				"grails-app/controllers/ni/com/lora/BuyController.groovy"
-			],
-			[
-				"details",
-				"grails-app/views/deal/detail.gsp"
-			],
-			[
-				"userna",
-				"grails-app/views/layouts/user/_login-navbar.gsp"
-			],
-			[
-				"app",
-				"web-app/css/app.css"
-			],
-			[
-				"app.css",
-				"web-app/css/app.css"
-			],
-			[
-				"panel",
-				"grails-app/views/layouts/panel.gsp"
-			],
-			[
-				"buys",
-				"grails-app/views/buy/buysByDeal.gsp"
-			],
-			[
-				"urlmapp",
-				"grails-app/conf/UrlMappings.groovy"
-			],
-			[
-				"usercontro",
-				"grails-app/controllers/ni/com/lora/UserController.groovy"
-			],
-			[
-				"featured",
-				"grails-app/views/deal/featured.gsp"
-			],
-			[
-				"buycon",
-				"grails-app/controllers/ni/com/lora/BuyController.groovy"
-			],
-			[
-				"dealcontro",
-				"grails-app/controllers/ni/com/lora/DealController.groovy"
-			],
-			[
-				"product",
-				"grails-app/controllers/ni/com/lora/ProductController.groovy"
-			],
-			[
-				"deal.goo",
-				"grails-app/domain/ni/com/lora/Deal.groovy"
-			],
-			[
-				"all",
-				"grails-app/views/deal/all.gsp"
-			],
-			[
-				"public",
-				"grails-app/views/layouts/_public-navbar.gsp"
-			],
-			[
-				"feat",
-				"muerta la lora GRAILS app/grails-app/views/deal/featured.gsp"
-			],
-			[
-				"featu",
-				"muerta la lora GRAILS app/grails-app/views/deal/featured.gsp"
-			],
-			[
-				"navbar",
-				"muerta la lora GRAILS app/grails-app/views/layouts/user/_login-navbar.gsp"
-			],
-			[
-				"buy.g",
-				"muerta la lora GRAILS app/grails-app/domain/ni/com/lora/Buy.groovy"
-			],
-			[
-				"buy",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/BuyController.groovy"
-			],
-			[
-				"buyshow",
-				"muerta la lora GRAILS app/grails-app/views/buy/show.gsp"
-			],
-			[
-				"notifi",
-				"muerta la lora GRAILS app/grails-app/views/deal/notification.gsp"
-			],
-			[
-				"userlogin",
-				"muerta la lora GRAILS app/grails-app/views/user/login.gsp"
+				"dealc",
+				"lapp/grails-app/controllers/ni/com/lora/DealController.groovy"
 			],
 			[
 				"dealfeat",
-				"muerta la lora GRAILS app/grails-app/views/deal/featured.gsp"
+				"lapp/grails-app/views/deal/featured.gsp"
 			],
 			[
-				"userc",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/UserController.groovy"
+				"dealall",
+				"lapp/grails-app/views/deal/all.gsp"
 			],
 			[
-				"dealser",
-				"muerta la lora GRAILS app/grails-app/services/ni/com/lora/DealService.groovy"
+				"deallist",
+				"lapp/grails-app/views/deal/list.gsp"
 			],
 			[
-				"lappuser",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/UserController.groovy"
+				"buycon",
+				"lapp/grails-app/controllers/ni/com/lora/BuyController.groovy"
 			],
 			[
-				"dealco",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/DealController.groovy"
+				"productcontroll",
+				"lapp/grails-app/controllers/ni/com/lora/ProductController.groovy"
 			],
 			[
-				"feature",
-				"muerta la lora GRAILS app/grails-app/views/deal/featured.gsp"
-			],
-			[
-				"lapppanel",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/PanelController.groovy"
-			],
-			[
-				"lappusercontr",
-				"muerta la lora GRAILS app/grails-app/controllers/ni/com/lora/UserController.groovy"
-			],
-			[
-				"listc",
-				"muerta la lora GRAILS app/grails-app/views/user/listClient.gsp"
-			],
-			[
-				"companyform",
-				"muerta la lora GRAILS app/grails-app/views/company/_form.gsp"
-			],
-			[
-				"compaylis",
-				"muerta la lora GRAILS app/grails-app/views/company/list.gsp"
-			],
-			[
-				"compa",
-				"muerta la lora GRAILS app/grails-app/domain/ni/com/lora/Company.groovy"
-			],
-			[
-				"deal.gr",
-				"muerta la lora GRAILS app/grails-app/domain/ni/com/lora/Deal.groovy"
-			],
-			[
-				"dealcreate",
-				"muerta la lora GRAILS app/grails-app/views/deal/create.gsp"
-			],
-			[
-				"boot",
-				"muerta la lora GRAILS app/grails-app/conf/BootStrap.groovy"
-			],
-			[
-				"boots",
-				"muerta la lora GRAILS app/grails-app/conf/BootStrap.groovy"
-			],
-			[
-				"scheduleform",
-				"lapp/grails-app/views/schedule/_form.gsp"
-			],
-			[
-				"lappboot",
-				"lapp/grails-app/conf/BootStrap.groovy"
-			],
-			[
-				"url",
-				"lapp/grails-app/conf/UrlMappings.groovy"
+				"productcreate",
+				"lapp/grails-app/views/product/create.gsp"
 			],
 			[
 				"productshow",
 				"lapp/grails-app/views/product/show.gsp"
 			],
 			[
-				"my",
-				"lapp/grails-app/taglib/lapp/MyAppTagLib.groovy"
-			],
-			[
-				"avatars",
-				"lapp/grails-app/services/lapp/AvatarService.groovy"
-			],
-			[
-				"productform",
-				"lapp/grails-app/views/product/_form.gsp"
-			],
-			[
-				"lappprofile",
-				"lapp/grails-app/controllers/ni/com/lora/ProfileController.groovy"
-			],
-			[
-				"lappusercon",
-				"lapp/grails-app/controllers/ni/com/lora/UserController.groovy"
-			],
-			[
-				"produc",
-				"lapp/grails-app/domain/ni/com/lora/Product.groovy"
-			],
-			[
-				"lappt",
-				"lapp/grails-app/taglib/lapp/MyAppTagLib.groovy"
-			],
-			[
-				"lappprofi",
-				"lapp/grails-app/views/profile/profile.gsp"
-			],
-			[
-				"lappprof",
-				"lapp/grails-app/controllers/ni/com/lora/ProfileController.groovy"
-			],
-			[
-				"prduct",
-				"lapp/grails-app/domain/ni/com/lora/Product.groovy"
-			],
-			[
-				"tool",
-				"lapp/grails-app/views/layouts/_backend-toolbar.gsp"
-			],
-			[
-				"lappurl",
-				"lapp/grails-app/conf/UrlMappings.groovy"
-			],
-			[
-				"lappsche",
-				"lapp/grails-app/controllers/ni/com/lora/ScheduleController.groovy"
-			],
-			[
-				"urlmapping",
-				"lapp/grails-app/conf/UrlMappings.groovy"
-			],
-			[
-				"lappboots",
-				"lapp/grails-app/conf/BootStrap.groovy"
-			],
-			[
-				"lappboo",
-				"lapp/grails-app/conf/BootStrap.groovy"
-			],
-			[
-				"lapppro",
-				"lapp/grails-app/domain/ni/com/lora/Profile.groovy"
-			],
-			[
-				"departmentc",
-				"practices/web-app/js/departmentCities.js"
-			],
-			[
-				"companycreate",
-				"practices/grails-app/views/company/create.gsp"
-			],
-			[
-				"practlogin",
-				"practices/grails-app/views/layouts/user/login.gsp"
-			],
-			[
-				"practapp",
-				"practices/web-app/css/app.css"
-			],
-			[
-				"student",
-				"practices/grails-app/domain/ni/edu/uccleon/Student.groovy"
-			],
-			[
-				"studentlist",
-				"practices/grails-app/views/student/list.gsp"
-			],
-			[
-				"practapp.css",
-				"practices/web-app/css/app.css"
-			],
-			[
-				"pracapp",
-				"practices/web-app/css/app.css"
-			],
-			[
-				"lappapp",
+				"app.css",
 				"lapp/web-app/css/app.css"
 			],
 			[
-				"pass",
-				"lapp/grails-app/views/user/password.gsp"
+				"dealfeatured",
+				"lapp/grails-app/views/deal/featured.gsp"
 			],
 			[
-				"tag",
-				"lapp/grails-app/taglib/lapp/MyAppTagLib.groovy"
+				"companies",
+				"lapp/grails-app/views/company/companiesList.gsp"
 			],
 			[
-				"myta",
-				"myLibrary/grails-app/taglib/mylibrary/MyTagsTagLib.groovy"
+				"companyshow",
+				"lapp/grails-app/views/company/show.gsp"
 			],
 			[
-				"lapplogin",
-				"lapp/grails-app/views/user/login.gsp"
+				"companycn",
+				"lapp/grails-app/controllers/ni/com/lora/CompanyController.groovy"
 			],
 			[
-				"myboot",
-				"myLibrary/grails-app/conf/BootStrap.groovy"
+				"companyfor",
+				"lapp/grails-app/views/company/_form.gsp"
 			],
 			[
-				"myliboots",
-				"myLibrary/grails-app/conf/BootStrap.groovy"
+				"company",
+				"lapp/grails-app/domain/ni/com/lora/Company.groovy"
 			],
 			[
-				"pypboots",
-				"pYp/grails-app/conf/BootStrap.groovy"
+				"companylist",
+				"muerta la lora Grails/grails-app/views/company/list.gsp"
 			],
 			[
-				"lappbootst",
-				"lapp/grails-app/conf/BootStrap.groovy"
+				"companieslist",
+				"muerta la lora Grails/grails-app/views/company/companiesList.gsp"
 			],
 			[
-				"lappmain",
-				"lapp/grails-app/views/panel/main.gsp"
+				"fronend",
+				"muerta la lora Grails/grails-app/views/layouts/frontend.gsp"
+			],
+			[
+				"companycontro",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/CompanyController.groovy"
+			],
+			[
+				"dealcontr",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/DealController.groovy"
+			],
+			[
+				"dealform",
+				"muerta la lora Grails/grails-app/views/deal/_form.gsp"
+			],
+			[
+				"dealcreate",
+				"muerta la lora Grails/grails-app/views/deal/create.gsp"
+			],
+			[
+				"schedule",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/ScheduleController.groovy"
+			],
+			[
+				"productlist",
+				"muerta la lora Grails/grails-app/views/product/list.gsp"
+			],
+			[
+				"profile.js",
+				"muerta la lora Grails/web-app/js/profile.js"
+			],
+			[
+				"user",
+				"practices/grails-app/views/layouts/user.gsp"
+			],
+			[
+				"password",
+				"muerta la lora Grails/grails-app/views/user/password.gsp"
+			],
+			[
+				"account",
+				"muerta la lora Grails/grails-app/views/user/account.gsp"
+			],
+			[
+				"profile",
+				"muerta la lora Grails/grails-app/views/layouts/profile.gsp"
+			],
+			[
+				"profilec",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/ProfileController.groovy"
+			],
+			[
+				"url",
+				"muerta la lora Grails/grails-app/conf/UrlMappings.groovy"
+			],
+			[
+				"conf",
+				"muerta la lora Grails/grails-app/conf/Config.groovy"
 			],
 			[
 				"profilecon",
-				"lapp/grails-app/controllers/ni/com/lora/ProfileController.groovy"
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/ProfileController.groovy"
 			],
 			[
-				"lapplaylo",
-				"lapp/grails-app/views/layouts/user/login.gsp"
+				"compa",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/CompanyController.groovy"
 			],
 			[
-				"mylboo",
-				"myLibrary/grails-app/conf/BootStrap.groovy"
+				"buy",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/BuyController.groovy"
 			],
 			[
-				"pypuser",
-				"pYp/grails-app/domain/pyp/User.groovy"
+				"panel-nav",
+				"muerta la lora Grails/grails-app/views/layouts/_panel-navbar.gsp"
 			],
 			[
-				"ladata",
-				"lapp/grails-app/conf/DataSource.groovy"
+				"showclient",
+				"muerta la lora Grails/grails-app/views/user/showClient.gsp"
 			],
 			[
-				"pypboot",
-				"pYp/grails-app/conf/BootStrap.groovy"
+				"usercreate",
+				"muerta la lora Grails/grails-app/views/user/create.gsp"
 			],
 			[
-				"lapan",
-				"lapp/grails-app/controllers/ni/com/lora/PanelController.groovy"
+				"userform",
+				"muerta la lora Grails/grails-app/views/user/_form.gsp"
 			],
 			[
-				"lauser",
-				"lapp/grails-app/controllers/ni/com/lora/UserController.groovy"
+				"userlist",
+				"muerta la lora Grails/grails-app/views/user/list.gsp"
 			],
 			[
-				"pypboo",
-				"pYp/grails-app/conf/BootStrap.groovy"
+				"user/edit",
+				"muerta la lora Grails/grails-app/views/user/edit.gsp"
 			],
 			[
-				"lan",
-				"pYp/grails-app/views/layouts/_lang-toolbar.gsp"
+				"brachlist",
+				"muerta la lora Grails/grails-app/views/branch/list.gsp"
 			],
 			[
-				"laapp",
-				"lapp/web-app/css/app.css"
+				"companycreate",
+				"muerta la lora Grails/grails-app/views/company/create.gsp"
 			],
 			[
-				"lapbu",
-				"lapp/grails-app/conf/BuildConfig.groovy"
+				"bootstrap",
+				"muerta la lora Grails/grails-app/conf/BootStrap.groovy"
 			],
 			[
-				"pypbui",
-				"pYp/grails-app/conf/BuildConfig.groovy"
+				"buildc",
+				"muerta la lora Grails/grails-app/conf/BuildConfig.groovy"
 			],
 			[
-				"pypconf",
-				"pYp/grails-app/conf/Config.groovy"
+				"navbar",
+				"muerta la lora Grails/grails-app/views/layouts/_panel-navbar.gsp"
 			],
 			[
-				"pyptagli",
-				"pYp/grails-app/taglib/pyp/SimpleTagLib.groovy"
+				"secur",
+				"practices/grails-app/conf/practices/SecurityFilters.groovy"
 			],
 			[
-				"controprof",
-				"a123/grails-app/controllers/ni/com/leon/ProfileController.groovy"
+				"usershow",
+				"muerta la lora Grails/grails-app/views/user/showClient.gsp"
 			],
 			[
-				"myapp",
-				"myLibrary/web-app/css/app.css"
+				"panel-se",
+				"muerta la lora Grails/grails-app/views/layouts/_panel-sidebar.gsp"
 			],
 			[
-				"mypro",
-				"myLibrary/grails-app/domain/ni/edu/uccleon/Profile.groovy"
+				"404",
+				"muerta la lora Grails/grails-app/views/404.gsp"
 			],
 			[
-				"pypurl",
-				"pYp/grails-app/conf/UrlMappings.groovy"
+				"companyform",
+				"muerta la lora Grails/grails-app/views/company/_form.gsp"
+			],
+			[
+				"companycontr",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/CompanyController.groovy"
+			],
+			[
+				"usercontr",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/UserController.groovy"
+			],
+			[
+				"schedulelist",
+				"muerta la lora Grails/grails-app/views/schedule/list.gsp"
+			],
+			[
+				"companycrea",
+				"muerta la lora Grails/grails-app/views/company/create.gsp"
+			],
+			[
+				"user.groo",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/User.groovy"
+			],
+			[
+				"dealcontroll",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/DealController.groovy"
+			],
+			[
+				"companycon",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/CompanyController.groovy"
+			],
+			[
+				"compan",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/Company.groovy"
+			],
+			[
+				"",
+				"muerta la lora Grails/grails-app/conf/ApplicationResources.groovy"
+			],
+			[
+				"listcloseddeals",
+				"muerta la lora Grails/grails-app/views/deal/listClosedDeals.gsp"
+			],
+			[
+				"back",
+				"muerta la lora Grails/grails-app/views/layouts/_backend-toolbar.gsp"
+			],
+			[
+				"deal-in",
+				"muerta la lora Grails/grails-app/views/deal/_deal-information.gsp"
+			],
+			[
+				"deal-inf",
+				"muerta la lora Grails/grails-app/views/deal/_deal-information.gsp"
+			],
+			[
+				"dealdetail",
+				"muerta la lora Grails/grails-app/views/deal/detail.gsp"
+			],
+			[
+				"deal.groo",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/Deal.groovy"
+			],
+			[
+				"buy.groo",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/Buy.groovy"
+			],
+			[
+				"buycontr",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/BuyController.groovy"
+			],
+			[
+				"userc",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/UserController.groovy"
+			],
+			[
+				"panel",
+				"muerta la lora Grails/grails-app/views/layouts/_panel-sidebar.gsp"
+			],
+			[
+				"subsi",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/SubsidiaryController.groovy"
+			],
+			[
+				"usercon",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/UserController.groovy"
+			],
+			[
+				"sched",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/ScheduleController.groovy"
+			],
+			[
+				"productcon",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/ProductController.groovy"
+			],
+			[
+				"branchc",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/BranchController.groovy"
+			],
+			[
+				"companyc",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/CompanyController.groovy"
+			],
+			[
+				"dealcon",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/DealController.groovy"
+			],
+			[
+				"companies-",
+				"muerta la lora Grails/grails-app/views/layouts/_companies-category-toolbar.gsp"
+			],
+			[
+				"company.groo",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/Company.groovy"
+			],
+			[
+				"bootstra",
+				"muerta la lora Grails/grails-app/conf/BootStrap.groovy"
+			],
+			[
+				"boots",
+				"muerta la lora Grails/grails-app/conf/BootStrap.groovy"
+			],
+			[
+				"deal-de",
+				"muerta la lora Grails/grails-app/views/layouts/_deal-featured-sidebar.gsp"
+			],
+			[
+				"fron",
+				"muerta la lora Grails/grails-app/views/layouts/frontend.gsp"
+			],
+			[
+				"dealfeatu",
+				"muerta la lora Grails/grails-app/views/deal/featured.gsp"
+			],
+			[
+				"produc",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/Product.groovy"
+			],
+			[
+				"login",
+				"muerta la lora Grails/grails-app/views/user/login.gsp"
+			],
+			[
+				"listnew",
+				"muerta la lora Grails/grails-app/views/buy/listNewBuys.gsp"
+			],
+			[
+				"showcli",
+				"muerta la lora Grails/grails-app/views/user/showClient.gsp"
+			],
+			[
+				"app.",
+				"muerta la lora Grails/web-app/css/app.css"
+			],
+			[
+				"buyc",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/BuyController.groovy"
+			],
+			[
+				"profile.gr",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/Profile.groovy"
+			],
+			[
+				"user.g",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/User.groovy"
+			],
+			[
+				"createc",
+				"muerta la lora Grails/grails-app/views/user/createClient.gsp"
+			],
+			[
+				"user-",
+				"muerta la lora Grails/grails-app/views/layouts/_user-toolbar.gsp"
+			],
+			[
+				"listclient",
+				"muerta la lora Grails/grails-app/views/user/listClient.gsp"
+			],
+			[
+				"user/sho",
+				"muerta la lora Grails/grails-app/views/user/showClient.gsp"
+			],
+			[
+				"user.gr",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/User.groovy"
+			],
+			[
+				"usercontro",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/UserController.groovy"
+			],
+			[
+				"schedulecreate",
+				"muerta la lora Grails/grails-app/views/schedule/create.gsp"
+			],
+			[
+				"schedulec",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/ScheduleController.groovy"
+			],
+			[
+				"update",
+				"feedback/test/unit/ni/com/myappfeedback/AppTests.groovy"
+			],
+			[
+				"branch",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/BranchController.groovy"
+			],
+			[
+				"companyedit",
+				"muerta la lora Grails/grails-app/views/company/edit.gsp"
+			],
+			[
+				"faq",
+				"muerta la lora Grails/grails-app/views/faq.gsp"
+			],
+			[
+				"branchlist",
+				"muerta la lora Grails/grails-app/views/branch/list.gsp"
+			],
+			[
+				"branch/show",
+				"muerta la lora Grails/grails-app/views/branch/show.gsp"
+			],
+			[
+				"branch/cre",
+				"muerta la lora Grails/grails-app/views/branch/create.gsp"
+			],
+			[
+				"user/show",
+				"muerta la lora Grails/grails-app/views/user/showClient.gsp"
+			],
+			[
+				"user/create",
+				"muerta la lora Grails/grails-app/views/user/createClient.gsp"
+			],
+			[
+				"user/form",
+				"muerta la lora Grails/grails-app/views/user/_form.gsp"
+			],
+			[
+				"createcl",
+				"muerta la lora Grails/grails-app/views/user/createClient.gsp"
+			],
+			[
+				"buysby",
+				"muerta la lora Grails/grails-app/views/buy/buysByDeal.gsp"
+			],
+			[
+				"buys",
+				"muerta la lora Grails/grails-app/views/buy/show.gsp"
+			],
+			[
+				"company.gr",
+				"muerta la lora Grails/grails-app/domain/ni/com/lora/Company.groovy"
+			],
+			[
+				"deal-info",
+				"muerta la lora Grails/grails-app/views/deal/_deal-information.gsp"
+			],
+			[
+				"details",
+				"muerta la lora Grails/grails-app/views/deal/detail.gsp"
+			],
+			[
+				"featured",
+				"muerta la lora Grails/grails-app/views/deal/featured.gsp"
+			],
+			[
+				"dealser",
+				"muerta la lora Grails/grails-app/services/ni/com/lora/DealService.groovy"
+			],
+			[
+				"usercontrol",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/UserController.groovy"
+			],
+			[
+				"buycontroll",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/BuyController.groovy"
+			],
+			[
+				"companycontroller",
+				"muerta la lora Grails/grails-app/controllers/ni/com/lora/CompanyController.groovy"
+			],
+			[
+				"show",
+				"muerta la lora Grails/grails-app/views/user/showClient.gsp"
+			],
+			[
+				"layoutcompany",
+				"muerta la lora Grails/grails-app/views/layouts/company.gsp"
+			],
+			[
+				"appc",
+				"feedback/grails-app/controllers/ni/com/myappfeedback/AppController.groovy"
+			],
+			[
+				"feeduser",
+				"feedback/grails-app/domain/ni/com/myappfeedback/User.groovy"
 			]
 		],
 		"width": 0.0
@@ -1598,6 +1597,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 280.0,
+	"side_bar_width": 256.0,
 	"status_bar_visible": true
 }

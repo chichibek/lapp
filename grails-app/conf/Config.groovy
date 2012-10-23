@@ -93,6 +93,9 @@ log4j = {
 grails.plugin.cloudfoundry.username = "amakenadog@gmail.com"
 grails.plugin.cloudfoundry.password = "pikinjuki"
 
+//companies categories
+company.categories = ['shoes','fast food','hardware store','restaurant','super market']
+
 //avatarPlugin {
   //defaultGravatarUrl="""http://lapp.cloudfoundry.com/images/default-gravatar-80.png"""
   //gravatarRating="G"

@@ -10,8 +10,8 @@ class Deal {
 	Date claimUp
 	String description
 	Boolean published = false
-	Boolean state = true
-    Boolean closed = false
+	Boolean state = true //closed deals
+    Boolean closed = false //not used
 	String gender = 'all'
 	String age = 'all'
 	Date dateCreated
@@ -41,5 +41,14 @@ class Deal {
     static belongsTo = [company:Company]
 
     static hasMany = [subsidiaries:Subsidiary, buys:Buy]
+
+    static namedQueries = {
+        all {
+            eq 'published', true
+            and {
+                eq 'state', true
+            }
+        }
+    }
 
 }
